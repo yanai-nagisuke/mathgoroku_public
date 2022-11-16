@@ -26,19 +26,29 @@ public class ProblemController : MonoBehaviour
         Problem.text = "Solve me!<br>"+problem_list[me];
         //isTimeUp = false;
         Timer.text = "Timer:"+time.ToString("F1");
+        solved = false;
     }
 
     // Update is called once per frame
     void Update()
     {
-
+        if (0 < time) {
+            time -= Time.deltaTime;
+            Timer.text = "Timer:"+time.ToString("F1");
+        }else if (time < 0 && isTimeUp==false && solved==false){
+            isTimeUp = true;
+            StartCoroutine(Erase(3));//時間切れ
+            GameController.players_turn += 1;
+            GameController.players_turn %= 1;
+        }
     }
     
 
     IEnumerator Erase(float time){
         if (isTimeUp && solved==false)Problem.text = "Time up";
         yield return new WaitForSeconds(time);
-        Debug.Log("erased");
+        SceneManager.LoadScene("SampleScene");
+        if(solved)isWalk = true;
     }
 
 
@@ -50,10 +60,8 @@ public class ProblemController : MonoBehaviour
             solved = true;
             Problem.text += ans_list[me]+"<br>Congraturations!";
             Timer.text = "";
-            time = -1;
-            SceneManager.LoadScene("SampleScene");
-            isWalk = true;
-            //GameController.Walk(me);
+            time =- 1;//タイマーが減らないようにする
+            StartCoroutine(Erase(3f));
         }
      }
 }

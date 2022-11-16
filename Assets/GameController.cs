@@ -20,7 +20,7 @@ public class GameController : MonoBehaviour
 
     public static int me = 0;//サイコロの目
     static int[,] players_position; 
-    static int players_turn = 0;//今誰のターンか
+    public static int players_turn = 0;//今誰のターンか
     static int[,,] used;
     static List<Vector3> player_destination = new List<Vector3>();
 
@@ -31,8 +31,7 @@ public class GameController : MonoBehaviour
     int pointer = 0;
 
     static bool syokika = true;
-    void Awake(){
-        Debug.Log(syokika);
+    void Start(){
         player1 = GameObject.Find("fox");
         player2 = GameObject.Find("fox_red");
         player3 = GameObject.Find("fox_yellow");
@@ -54,13 +53,13 @@ public class GameController : MonoBehaviour
             player2.transform.position = player_destination[1];
             player3.transform.position = player_destination[2];
         }
-    }
-
-
-    void Start(){
-        if(ProblemController.isWalk)Walk(me);
+        if(ProblemController.isWalk){
+            dice.interactable = false;
+            Walk(me);
+        }
         ProblemController.isWalk = false;
     }
+
 
     
     private IEnumerator Change(int x, int y, int nokori, float waitTime){
@@ -77,10 +76,7 @@ public class GameController : MonoBehaviour
 
     void Update(){
         players[players_turn].transform.position = Vector3.MoveTowards(players[players_turn].transform.position,  player_destination[players_turn], speed);
-        if (Input.GetKey("b")){
-            Debug.Log("b");
-            player_destination[0] = tilemap.GetCellCenterWorld(new Vector3Int(0, 0, 0));
-        }
+        
     }
 
 
