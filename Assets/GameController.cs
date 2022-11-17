@@ -122,9 +122,10 @@ public class GameController : MonoBehaviour
         Walk(me, 1, nexts_index);//無限ループ防止用フラグ
     }
 
-
+    
     private void Walk(int me, int flg=0, int nexts_index=0){
         int[,] delta = new int[,] {{1,0}, {0,1}, {-1,0}, {0,-1}};
+        var bound = tilemap.cellBounds;
         for(int i=0; i<me; i++){
             List<List<int>> Nexts = new List<List<int>>();
             for(int j=0; j<4; j++){
@@ -132,7 +133,7 @@ public class GameController : MonoBehaviour
                 int nx_kouho = players_position[players_turn, 0] + delta[j, 0];
                 int ny_kouho = players_position[players_turn, 1] + delta[j, 1];
                 if (!tilemap.HasTile(new Vector3Int(nx_kouho, ny_kouho, 0)))continue;
-                if (used[players_turn, nx_kouho+8, ny_kouho+4] >= 1)continue;
+                if (used[players_turn, nx_kouho-bound.min.x, ny_kouho-bound.min.y] >= 1)continue;
                 next.Add(nx_kouho);
                 next.Add(ny_kouho);
                 Nexts.Add(next);
@@ -160,7 +161,7 @@ public class GameController : MonoBehaviour
             
             players_position[players_turn, 0] = nx;
             players_position[players_turn, 1] = ny;
-            used[players_turn, nx+8, ny+4] = 1;
+            used[players_turn, nx-bound.min.x, ny-bound.min.y] = 1;
             StartCoroutine(Change(nx, ny, me-i-1, 0.3f*i));
             player_destination[players_turn] = tilemap.GetCellCenterWorld(new Vector3Int(nx, ny, 0));//タイル換算の位置にしている
         }
