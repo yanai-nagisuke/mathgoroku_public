@@ -18,7 +18,7 @@ public class ProblemController : MonoBehaviour
     public static bool isWalk;
     
 
-    int me = 1;
+    
     void Start()
     {
         int me = GameController.me;
