@@ -13,12 +13,168 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 6
-  lastUpdatedAtString: 2022-11-17T00:35:14.419+09:00
-  initializedAtString: 2022-11-16T23:56:47.893+09:00
+  lastUpdatedAtString: 2022-11-18T00:02:36.682+09:00
+  initializedAtString: 2022-11-17T16:52:37.374+09:00
   entries:
+  - path: Assets/DiceController.cs
+    fullPath: /Users/chourensei/Desktop/Unity/mathgoroku_public/Assets/DiceController.cs
+    projectPath: Assets/DiceController.cs
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets/DiceController.cs.meta
+    fullPath: /Users/chourensei/Desktop/Unity/mathgoroku_public/Assets/DiceController.cs.meta
+    projectPath: Assets/DiceController.cs.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
   - path: Assets/GameController.cs
     fullPath: /Users/chourensei/Desktop/Unity/mathgoroku_public/Assets/GameController.cs
     projectPath: Assets/GameController.cs
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Assets/Images/blueFieldnaname.asset
+    fullPath: /Users/chourensei/Desktop/Unity/mathgoroku_public/Assets/Images/blueFieldnaname.asset
+    projectPath: Assets/Images/blueFieldnaname.asset
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets/Images/blueFieldnaname.asset.meta
+    fullPath: /Users/chourensei/Desktop/Unity/mathgoroku_public/Assets/Images/blueFieldnaname.asset.meta
+    projectPath: Assets/Images/blueFieldnaname.asset.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets/Images/blueFieldnaname.png
+    fullPath: /Users/chourensei/Desktop/Unity/mathgoroku_public/Assets/Images/blueFieldnaname.png
+    projectPath: Assets/Images/blueFieldnaname.png
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets/Images/blueFieldnaname.png.meta
+    fullPath: /Users/chourensei/Desktop/Unity/mathgoroku_public/Assets/Images/blueFieldnaname.png.meta
+    projectPath: Assets/Images/blueFieldnaname.png.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets/Images/castleCenter_rounded_naname.asset
+    fullPath: /Users/chourensei/Desktop/Unity/mathgoroku_public/Assets/Images/castleCenter_rounded_naname.asset
+    projectPath: Assets/Images/castleCenter_rounded_naname.asset
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets/Images/castleCenter_rounded_naname.asset.meta
+    fullPath: /Users/chourensei/Desktop/Unity/mathgoroku_public/Assets/Images/castleCenter_rounded_naname.asset.meta
+    projectPath: Assets/Images/castleCenter_rounded_naname.asset.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets/Images/castleCenter_rounded_naname.png
+    fullPath: /Users/chourensei/Desktop/Unity/mathgoroku_public/Assets/Images/castleCenter_rounded_naname.png
+    projectPath: Assets/Images/castleCenter_rounded_naname.png
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets/Images/castleCenter_rounded_naname.png.meta
+    fullPath: /Users/chourensei/Desktop/Unity/mathgoroku_public/Assets/Images/castleCenter_rounded_naname.png.meta
+    projectPath: Assets/Images/castleCenter_rounded_naname.png.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets/Images/castleCenter_yellow_naname.png
+    fullPath: /Users/chourensei/Desktop/Unity/mathgoroku_public/Assets/Images/castleCenter_yellow_naname.png
+    projectPath: Assets/Images/castleCenter_yellow_naname.png
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets/Images/castleCenter_yellow_naname.png.meta
+    fullPath: /Users/chourensei/Desktop/Unity/mathgoroku_public/Assets/Images/castleCenter_yellow_naname.png.meta
+    projectPath: Assets/Images/castleCenter_yellow_naname.png.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets/Images/greenFieldnaname.asset
+    fullPath: /Users/chourensei/Desktop/Unity/mathgoroku_public/Assets/Images/greenFieldnaname.asset
+    projectPath: Assets/Images/greenFieldnaname.asset
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets/Images/greenFieldnaname.asset.meta
+    fullPath: /Users/chourensei/Desktop/Unity/mathgoroku_public/Assets/Images/greenFieldnaname.asset.meta
+    projectPath: Assets/Images/greenFieldnaname.asset.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets/Images/greenFieldnaname.png
+    fullPath: /Users/chourensei/Desktop/Unity/mathgoroku_public/Assets/Images/greenFieldnaname.png
+    projectPath: Assets/Images/greenFieldnaname.png
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets/Images/greenFieldnaname.png.meta
+    fullPath: /Users/chourensei/Desktop/Unity/mathgoroku_public/Assets/Images/greenFieldnaname.png.meta
+    projectPath: Assets/Images/greenFieldnaname.png.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets/Images/red_minus.asset
+    fullPath: /Users/chourensei/Desktop/Unity/mathgoroku_public/Assets/Images/red_minus.asset
+    projectPath: Assets/Images/red_minus.asset
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets/Images/red_minus.asset.meta
+    fullPath: /Users/chourensei/Desktop/Unity/mathgoroku_public/Assets/Images/red_minus.asset.meta
+    projectPath: Assets/Images/red_minus.asset.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets/Images/red_minus.png
+    fullPath: /Users/chourensei/Desktop/Unity/mathgoroku_public/Assets/Images/red_minus.png
+    projectPath: Assets/Images/red_minus.png
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets/Images/red_minus.png.meta
+    fullPath: /Users/chourensei/Desktop/Unity/mathgoroku_public/Assets/Images/red_minus.png.meta
+    projectPath: Assets/Images/red_minus.png.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets/Images/red_minus_naname.asset
+    fullPath: /Users/chourensei/Desktop/Unity/mathgoroku_public/Assets/Images/red_minus_naname.asset
+    projectPath: Assets/Images/red_minus_naname.asset
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets/Images/red_minus_naname.asset.meta
+    fullPath: /Users/chourensei/Desktop/Unity/mathgoroku_public/Assets/Images/red_minus_naname.asset.meta
+    projectPath: Assets/Images/red_minus_naname.asset.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets/Images/red_minus_naname.png
+    fullPath: /Users/chourensei/Desktop/Unity/mathgoroku_public/Assets/Images/red_minus_naname.png
+    projectPath: Assets/Images/red_minus_naname.png
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets/Images/red_minus_naname.png.meta
+    fullPath: /Users/chourensei/Desktop/Unity/mathgoroku_public/Assets/Images/red_minus_naname.png.meta
+    projectPath: Assets/Images/red_minus_naname.png.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: "Assets/Images/\u30DE\u30B9ver2/red_minus.asset"
+    fullPath: "/Users/chourensei/Desktop/Unity/mathgoroku_public/Assets/Images/\u30DE\u30B9ver2/red_minus.asset"
+    projectPath: "Assets/Images/\u30DE\u30B9ver2/red_minus.asset"
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: "Assets/Images/\u30DE\u30B9ver2/yellow_divide.asset"
+    fullPath: "/Users/chourensei/Desktop/Unity/mathgoroku_public/Assets/Images/\u30DE\u30B9ver2/yellow_divide.asset"
+    projectPath: "Assets/Images/\u30DE\u30B9ver2/yellow_divide.asset"
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
@@ -28,15 +184,15 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: Assets/Scenes/problem.unity
-    fullPath: /Users/chourensei/Desktop/Unity/mathgoroku_public/Assets/Scenes/problem.unity
-    projectPath: Assets/Scenes/problem.unity
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
   - path: Assets/Scenes/SampleScene.unity
     fullPath: /Users/chourensei/Desktop/Unity/mathgoroku_public/Assets/Scenes/SampleScene.unity
     projectPath: Assets/Scenes/SampleScene.unity
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Assets/TilePalette/FieldPalette.prefab
+    fullPath: /Users/chourensei/Desktop/Unity/mathgoroku_public/Assets/TilePalette/FieldPalette.prefab
+    projectPath: Assets/TilePalette/FieldPalette.prefab
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
@@ -52,117 +208,249 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: Library/Artifacts/00/006c060eb8d1ff61c557a3e3a296c9dc
-    fullPath: /Users/chourensei/Desktop/Unity/mathgoroku_public/Library/Artifacts/00/006c060eb8d1ff61c557a3e3a296c9dc
-    projectPath: Library/Artifacts/00/006c060eb8d1ff61c557a3e3a296c9dc
+  - path: Library/Artifacts/00/00a2f9c29f4448fb03b5fd50b3f6c562
+    fullPath: /Users/chourensei/Desktop/Unity/mathgoroku_public/Library/Artifacts/00/00a2f9c29f4448fb03b5fd50b3f6c562
+    projectPath: Library/Artifacts/00/00a2f9c29f4448fb03b5fd50b3f6c562
     originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library/Artifacts/02/02f3124eef3c83f647a1e71280539ade
-    fullPath: /Users/chourensei/Desktop/Unity/mathgoroku_public/Library/Artifacts/02/02f3124eef3c83f647a1e71280539ade
-    projectPath: Library/Artifacts/02/02f3124eef3c83f647a1e71280539ade
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library/Artifacts/00/00fbc0b3448b4958c42d4a1d86f64ecb
+    fullPath: /Users/chourensei/Desktop/Unity/mathgoroku_public/Library/Artifacts/00/00fbc0b3448b4958c42d4a1d86f64ecb
+    projectPath: Library/Artifacts/00/00fbc0b3448b4958c42d4a1d86f64ecb
     originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library/Artifacts/06/06dc9e3cfd2814edb212a095745b8d5b
-    fullPath: /Users/chourensei/Desktop/Unity/mathgoroku_public/Library/Artifacts/06/06dc9e3cfd2814edb212a095745b8d5b
-    projectPath: Library/Artifacts/06/06dc9e3cfd2814edb212a095745b8d5b
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library/Artifacts/03/038b04ad8361646367e8a39408900b4b
+    fullPath: /Users/chourensei/Desktop/Unity/mathgoroku_public/Library/Artifacts/03/038b04ad8361646367e8a39408900b4b
+    projectPath: Library/Artifacts/03/038b04ad8361646367e8a39408900b4b
     originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library/Artifacts/08/080bcc8dded3a73723e342fbd7467478
-    fullPath: /Users/chourensei/Desktop/Unity/mathgoroku_public/Library/Artifacts/08/080bcc8dded3a73723e342fbd7467478
-    projectPath: Library/Artifacts/08/080bcc8dded3a73723e342fbd7467478
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library/Artifacts/05/059cf292e8b98694dc42f2f42703a20d
+    fullPath: /Users/chourensei/Desktop/Unity/mathgoroku_public/Library/Artifacts/05/059cf292e8b98694dc42f2f42703a20d
+    projectPath: Library/Artifacts/05/059cf292e8b98694dc42f2f42703a20d
     originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library/Artifacts/09/0963c7815fdb3ee45142a1ad86dc63ee
-    fullPath: /Users/chourensei/Desktop/Unity/mathgoroku_public/Library/Artifacts/09/0963c7815fdb3ee45142a1ad86dc63ee
-    projectPath: Library/Artifacts/09/0963c7815fdb3ee45142a1ad86dc63ee
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library/Artifacts/08/08e57f5d418f7375ce67ce45cd495dc1
+    fullPath: /Users/chourensei/Desktop/Unity/mathgoroku_public/Library/Artifacts/08/08e57f5d418f7375ce67ce45cd495dc1
+    projectPath: Library/Artifacts/08/08e57f5d418f7375ce67ce45cd495dc1
     originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library/Artifacts/0b/0b8fee5c7b33c4f7026e2dfa3f4a6bd4
-    fullPath: /Users/chourensei/Desktop/Unity/mathgoroku_public/Library/Artifacts/0b/0b8fee5c7b33c4f7026e2dfa3f4a6bd4
-    projectPath: Library/Artifacts/0b/0b8fee5c7b33c4f7026e2dfa3f4a6bd4
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library/Artifacts/10/10009368a99657b8b44da34564dc3f38
+    fullPath: /Users/chourensei/Desktop/Unity/mathgoroku_public/Library/Artifacts/10/10009368a99657b8b44da34564dc3f38
+    projectPath: Library/Artifacts/10/10009368a99657b8b44da34564dc3f38
     originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library/Artifacts/0d/0dc5dcc1c9953e3ba829068d69c8137e
-    fullPath: /Users/chourensei/Desktop/Unity/mathgoroku_public/Library/Artifacts/0d/0dc5dcc1c9953e3ba829068d69c8137e
-    projectPath: Library/Artifacts/0d/0dc5dcc1c9953e3ba829068d69c8137e
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library/Artifacts/12/12e1a717482ec02ba7a2c949b5d9d492
+    fullPath: /Users/chourensei/Desktop/Unity/mathgoroku_public/Library/Artifacts/12/12e1a717482ec02ba7a2c949b5d9d492
+    projectPath: Library/Artifacts/12/12e1a717482ec02ba7a2c949b5d9d492
     originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library/Artifacts/11/1177d7d7b3b4f7466e3d3c2fc508d814
-    fullPath: /Users/chourensei/Desktop/Unity/mathgoroku_public/Library/Artifacts/11/1177d7d7b3b4f7466e3d3c2fc508d814
-    projectPath: Library/Artifacts/11/1177d7d7b3b4f7466e3d3c2fc508d814
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library/Artifacts/13/13d43bc7f4f0154a3aeca10c9e41b9fa
+    fullPath: /Users/chourensei/Desktop/Unity/mathgoroku_public/Library/Artifacts/13/13d43bc7f4f0154a3aeca10c9e41b9fa
+    projectPath: Library/Artifacts/13/13d43bc7f4f0154a3aeca10c9e41b9fa
     originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
+    indexStatus: 1
+    workTreeStatus: 1
   - path: Library/Artifacts/15/152edf9399474cb19050360708841e36
     fullPath: /Users/chourensei/Desktop/Unity/mathgoroku_public/Library/Artifacts/15/152edf9399474cb19050360708841e36
     projectPath: Library/Artifacts/15/152edf9399474cb19050360708841e36
     originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library/Artifacts/18/185b8968e020f6ac958029c19913cf8a
+    fullPath: /Users/chourensei/Desktop/Unity/mathgoroku_public/Library/Artifacts/18/185b8968e020f6ac958029c19913cf8a
+    projectPath: Library/Artifacts/18/185b8968e020f6ac958029c19913cf8a
+    originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Library/Artifacts/1c/1c8cd6c386651b5d5f2819cdee24e8ef
-    fullPath: /Users/chourensei/Desktop/Unity/mathgoroku_public/Library/Artifacts/1c/1c8cd6c386651b5d5f2819cdee24e8ef
-    projectPath: Library/Artifacts/1c/1c8cd6c386651b5d5f2819cdee24e8ef
+  - path: Library/Artifacts/18/189fff8ee1231114603ece57c4934e0e
+    fullPath: /Users/chourensei/Desktop/Unity/mathgoroku_public/Library/Artifacts/18/189fff8ee1231114603ece57c4934e0e
+    projectPath: Library/Artifacts/18/189fff8ee1231114603ece57c4934e0e
     originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library/Artifacts/1c/1ca45a5226a8fd76237a1b31021497e8
-    fullPath: /Users/chourensei/Desktop/Unity/mathgoroku_public/Library/Artifacts/1c/1ca45a5226a8fd76237a1b31021497e8
-    projectPath: Library/Artifacts/1c/1ca45a5226a8fd76237a1b31021497e8
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library/Artifacts/18/18ce2b847f3b4f328f2b34656e4bf2ce
+    fullPath: /Users/chourensei/Desktop/Unity/mathgoroku_public/Library/Artifacts/18/18ce2b847f3b4f328f2b34656e4bf2ce
+    projectPath: Library/Artifacts/18/18ce2b847f3b4f328f2b34656e4bf2ce
     originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library/Artifacts/1f/1f6413443ded6c4632466c1a0234b047
-    fullPath: /Users/chourensei/Desktop/Unity/mathgoroku_public/Library/Artifacts/1f/1f6413443ded6c4632466c1a0234b047
-    projectPath: Library/Artifacts/1f/1f6413443ded6c4632466c1a0234b047
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library/Artifacts/1a/1ad0c79b840c4a09d23f97c6e2c3c5d2
+    fullPath: /Users/chourensei/Desktop/Unity/mathgoroku_public/Library/Artifacts/1a/1ad0c79b840c4a09d23f97c6e2c3c5d2
+    projectPath: Library/Artifacts/1a/1ad0c79b840c4a09d23f97c6e2c3c5d2
     originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library/Artifacts/1a/1addb15f8990215a2f275f819d658173
+    fullPath: /Users/chourensei/Desktop/Unity/mathgoroku_public/Library/Artifacts/1a/1addb15f8990215a2f275f819d658173
+    projectPath: Library/Artifacts/1a/1addb15f8990215a2f275f819d658173
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library/Artifacts/1b/1b2f464b8ccacd8b7ad8a932dad7ebda
+    fullPath: /Users/chourensei/Desktop/Unity/mathgoroku_public/Library/Artifacts/1b/1b2f464b8ccacd8b7ad8a932dad7ebda
+    projectPath: Library/Artifacts/1b/1b2f464b8ccacd8b7ad8a932dad7ebda
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library/Artifacts/1c/1c6436d782d36cf0dffeb04873ed7883
+    fullPath: /Users/chourensei/Desktop/Unity/mathgoroku_public/Library/Artifacts/1c/1c6436d782d36cf0dffeb04873ed7883
+    projectPath: Library/Artifacts/1c/1c6436d782d36cf0dffeb04873ed7883
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library/Artifacts/20/20ac30d983ca88a6a152aa358c528b6f
+    fullPath: /Users/chourensei/Desktop/Unity/mathgoroku_public/Library/Artifacts/20/20ac30d983ca88a6a152aa358c528b6f
+    projectPath: Library/Artifacts/20/20ac30d983ca88a6a152aa358c528b6f
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library/Artifacts/21/2155e1a27259653ef084df96fed9a862
+    fullPath: /Users/chourensei/Desktop/Unity/mathgoroku_public/Library/Artifacts/21/2155e1a27259653ef084df96fed9a862
+    projectPath: Library/Artifacts/21/2155e1a27259653ef084df96fed9a862
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library/Artifacts/22/224aff2f3e1740342893ff39c397dac4
+    fullPath: /Users/chourensei/Desktop/Unity/mathgoroku_public/Library/Artifacts/22/224aff2f3e1740342893ff39c397dac4
+    projectPath: Library/Artifacts/22/224aff2f3e1740342893ff39c397dac4
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library/Artifacts/23/2326e595a8071f855b727397c6fcfcd8
+    fullPath: /Users/chourensei/Desktop/Unity/mathgoroku_public/Library/Artifacts/23/2326e595a8071f855b727397c6fcfcd8
+    projectPath: Library/Artifacts/23/2326e595a8071f855b727397c6fcfcd8
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library/Artifacts/23/2348368a26be33f1e653c8ba5d30f863
+    fullPath: /Users/chourensei/Desktop/Unity/mathgoroku_public/Library/Artifacts/23/2348368a26be33f1e653c8ba5d30f863
+    projectPath: Library/Artifacts/23/2348368a26be33f1e653c8ba5d30f863
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library/Artifacts/24/24e7ea54e34b7bb2c30fe8494ae1f557
+    fullPath: /Users/chourensei/Desktop/Unity/mathgoroku_public/Library/Artifacts/24/24e7ea54e34b7bb2c30fe8494ae1f557
+    projectPath: Library/Artifacts/24/24e7ea54e34b7bb2c30fe8494ae1f557
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library/Artifacts/25/2578d8d314efa97fa583a046aa7f6694
+    fullPath: /Users/chourensei/Desktop/Unity/mathgoroku_public/Library/Artifacts/25/2578d8d314efa97fa583a046aa7f6694
+    projectPath: Library/Artifacts/25/2578d8d314efa97fa583a046aa7f6694
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
   - path: Library/Artifacts/27/271ce19653eb23407d3d36341eb5b054
     fullPath: /Users/chourensei/Desktop/Unity/mathgoroku_public/Library/Artifacts/27/271ce19653eb23407d3d36341eb5b054
     projectPath: Library/Artifacts/27/271ce19653eb23407d3d36341eb5b054
     originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library/Artifacts/2a/2a51d436f486fc6219281754220ca921
+    fullPath: /Users/chourensei/Desktop/Unity/mathgoroku_public/Library/Artifacts/2a/2a51d436f486fc6219281754220ca921
+    projectPath: Library/Artifacts/2a/2a51d436f486fc6219281754220ca921
+    originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Library/Artifacts/29/295fd7eef813c79cec3471ef644d98e1
-    fullPath: /Users/chourensei/Desktop/Unity/mathgoroku_public/Library/Artifacts/29/295fd7eef813c79cec3471ef644d98e1
-    projectPath: Library/Artifacts/29/295fd7eef813c79cec3471ef644d98e1
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library/Artifacts/29/296edf037207db610ea47141ea668d8b
-    fullPath: /Users/chourensei/Desktop/Unity/mathgoroku_public/Library/Artifacts/29/296edf037207db610ea47141ea668d8b
-    projectPath: Library/Artifacts/29/296edf037207db610ea47141ea668d8b
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
   - path: Library/Artifacts/2a/2a6f9e1136d0ce1dc76de4a944a75d0c
     fullPath: /Users/chourensei/Desktop/Unity/mathgoroku_public/Library/Artifacts/2a/2a6f9e1136d0ce1dc76de4a944a75d0c
     projectPath: Library/Artifacts/2a/2a6f9e1136d0ce1dc76de4a944a75d0c
     originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library/Artifacts/2b/2b8ea13066b836aec3d32aefdbcfbd27
+    fullPath: /Users/chourensei/Desktop/Unity/mathgoroku_public/Library/Artifacts/2b/2b8ea13066b836aec3d32aefdbcfbd27
+    projectPath: Library/Artifacts/2b/2b8ea13066b836aec3d32aefdbcfbd27
+    originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Library/Artifacts/2c/2cdf56162ef114025001d6cbe9b0dca8
-    fullPath: /Users/chourensei/Desktop/Unity/mathgoroku_public/Library/Artifacts/2c/2cdf56162ef114025001d6cbe9b0dca8
-    projectPath: Library/Artifacts/2c/2cdf56162ef114025001d6cbe9b0dca8
+  - path: Library/Artifacts/2d/2d9d517900a14e5eb2fd1710e7d77760
+    fullPath: /Users/chourensei/Desktop/Unity/mathgoroku_public/Library/Artifacts/2d/2d9d517900a14e5eb2fd1710e7d77760
+    projectPath: Library/Artifacts/2d/2d9d517900a14e5eb2fd1710e7d77760
     originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library/Artifacts/31/31fad1fed114fe437303c0219eb3cb13
-    fullPath: /Users/chourensei/Desktop/Unity/mathgoroku_public/Library/Artifacts/31/31fad1fed114fe437303c0219eb3cb13
-    projectPath: Library/Artifacts/31/31fad1fed114fe437303c0219eb3cb13
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library/Artifacts/2d/2dd7c68a9a114fce1dfa13fad9c38ca5
+    fullPath: /Users/chourensei/Desktop/Unity/mathgoroku_public/Library/Artifacts/2d/2dd7c68a9a114fce1dfa13fad9c38ca5
+    projectPath: Library/Artifacts/2d/2dd7c68a9a114fce1dfa13fad9c38ca5
     originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library/Artifacts/2f/2f05df2e589276fa6951aa6ea7d7c6ba
+    fullPath: /Users/chourensei/Desktop/Unity/mathgoroku_public/Library/Artifacts/2f/2f05df2e589276fa6951aa6ea7d7c6ba
+    projectPath: Library/Artifacts/2f/2f05df2e589276fa6951aa6ea7d7c6ba
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library/Artifacts/30/30890da40fe8d6eb658feb66d950c360
+    fullPath: /Users/chourensei/Desktop/Unity/mathgoroku_public/Library/Artifacts/30/30890da40fe8d6eb658feb66d950c360
+    projectPath: Library/Artifacts/30/30890da40fe8d6eb658feb66d950c360
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library/Artifacts/31/314935e4eed9718e25c28d5e75f30c89
+    fullPath: /Users/chourensei/Desktop/Unity/mathgoroku_public/Library/Artifacts/31/314935e4eed9718e25c28d5e75f30c89
+    projectPath: Library/Artifacts/31/314935e4eed9718e25c28d5e75f30c89
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library/Artifacts/31/3191aa8e92468be11e55373f7a65e071
+    fullPath: /Users/chourensei/Desktop/Unity/mathgoroku_public/Library/Artifacts/31/3191aa8e92468be11e55373f7a65e071
+    projectPath: Library/Artifacts/31/3191aa8e92468be11e55373f7a65e071
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library/Artifacts/31/3195b4bc1b0d44ccef34b4faf9063702
+    fullPath: /Users/chourensei/Desktop/Unity/mathgoroku_public/Library/Artifacts/31/3195b4bc1b0d44ccef34b4faf9063702
+    projectPath: Library/Artifacts/31/3195b4bc1b0d44ccef34b4faf9063702
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library/Artifacts/31/31d511c260ec60ef32edec73f35e0b14
+    fullPath: /Users/chourensei/Desktop/Unity/mathgoroku_public/Library/Artifacts/31/31d511c260ec60ef32edec73f35e0b14
+    projectPath: Library/Artifacts/31/31d511c260ec60ef32edec73f35e0b14
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library/Artifacts/32/3217d97415ca752a28d5595e12ae72d4
+    fullPath: /Users/chourensei/Desktop/Unity/mathgoroku_public/Library/Artifacts/32/3217d97415ca752a28d5595e12ae72d4
+    projectPath: Library/Artifacts/32/3217d97415ca752a28d5595e12ae72d4
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library/Artifacts/36/3607d69d160432a804cda4c360c9e336
+    fullPath: /Users/chourensei/Desktop/Unity/mathgoroku_public/Library/Artifacts/36/3607d69d160432a804cda4c360c9e336
+    projectPath: Library/Artifacts/36/3607d69d160432a804cda4c360c9e336
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library/Artifacts/37/37254df9c28b9b331375d12b2f9331d3
+    fullPath: /Users/chourensei/Desktop/Unity/mathgoroku_public/Library/Artifacts/37/37254df9c28b9b331375d12b2f9331d3
+    projectPath: Library/Artifacts/37/37254df9c28b9b331375d12b2f9331d3
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
   - path: Library/Artifacts/37/378276446e8ad362c00fab03327046dc
     fullPath: /Users/chourensei/Desktop/Unity/mathgoroku_public/Library/Artifacts/37/378276446e8ad362c00fab03327046dc
     projectPath: Library/Artifacts/37/378276446e8ad362c00fab03327046dc
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library/Artifacts/37/37ff59d32901b4f6d98a4c7f69688604
+    fullPath: /Users/chourensei/Desktop/Unity/mathgoroku_public/Library/Artifacts/37/37ff59d32901b4f6d98a4c7f69688604
+    projectPath: Library/Artifacts/37/37ff59d32901b4f6d98a4c7f69688604
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library/Artifacts/38/3812260e4c52b36bb7993ed410183985
+    fullPath: /Users/chourensei/Desktop/Unity/mathgoroku_public/Library/Artifacts/38/3812260e4c52b36bb7993ed410183985
+    projectPath: Library/Artifacts/38/3812260e4c52b36bb7993ed410183985
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
@@ -170,728 +458,998 @@ MonoBehaviour:
     fullPath: /Users/chourensei/Desktop/Unity/mathgoroku_public/Library/Artifacts/38/38c8e8150bc7397e86cbd66a8459cc67
     projectPath: Library/Artifacts/38/38c8e8150bc7397e86cbd66a8459cc67
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library/Artifacts/3b/3bbdaa4f6eebc370eb20c65ab6991e79
-    fullPath: /Users/chourensei/Desktop/Unity/mathgoroku_public/Library/Artifacts/3b/3bbdaa4f6eebc370eb20c65ab6991e79
-    projectPath: Library/Artifacts/3b/3bbdaa4f6eebc370eb20c65ab6991e79
-    originalPath: 
     indexStatus: 0
     workTreeStatus: 5
+  - path: Library/Artifacts/39/399b7cc1f85a96f1b84e4ca0121edcc0
+    fullPath: /Users/chourensei/Desktop/Unity/mathgoroku_public/Library/Artifacts/39/399b7cc1f85a96f1b84e4ca0121edcc0
+    projectPath: Library/Artifacts/39/399b7cc1f85a96f1b84e4ca0121edcc0
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
   - path: Library/Artifacts/3c/3c17e07632c1d19947219e87d93c6383
     fullPath: /Users/chourensei/Desktop/Unity/mathgoroku_public/Library/Artifacts/3c/3c17e07632c1d19947219e87d93c6383
     projectPath: Library/Artifacts/3c/3c17e07632c1d19947219e87d93c6383
     originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library/Artifacts/3c/3cb79d2beb8704b0b8d7f6aca4538926
+    fullPath: /Users/chourensei/Desktop/Unity/mathgoroku_public/Library/Artifacts/3c/3cb79d2beb8704b0b8d7f6aca4538926
+    projectPath: Library/Artifacts/3c/3cb79d2beb8704b0b8d7f6aca4538926
+    originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Library/Artifacts/3d/3d9ea267f92bcf3f7b777533038982c5
-    fullPath: /Users/chourensei/Desktop/Unity/mathgoroku_public/Library/Artifacts/3d/3d9ea267f92bcf3f7b777533038982c5
-    projectPath: Library/Artifacts/3d/3d9ea267f92bcf3f7b777533038982c5
+  - path: Library/Artifacts/3d/3d2d62cd2462f7ed1a8fb27cba422030
+    fullPath: /Users/chourensei/Desktop/Unity/mathgoroku_public/Library/Artifacts/3d/3d2d62cd2462f7ed1a8fb27cba422030
+    projectPath: Library/Artifacts/3d/3d2d62cd2462f7ed1a8fb27cba422030
     originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library/Artifacts/3f/3faf3724785909f427e7bb187f960eae
-    fullPath: /Users/chourensei/Desktop/Unity/mathgoroku_public/Library/Artifacts/3f/3faf3724785909f427e7bb187f960eae
-    projectPath: Library/Artifacts/3f/3faf3724785909f427e7bb187f960eae
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library/Artifacts/3f/3ff21c8810537edb250a2ac6b53409bf
+    fullPath: /Users/chourensei/Desktop/Unity/mathgoroku_public/Library/Artifacts/3f/3ff21c8810537edb250a2ac6b53409bf
+    projectPath: Library/Artifacts/3f/3ff21c8810537edb250a2ac6b53409bf
     originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library/Artifacts/40/403af08f65b69051286307f6c41227a0
-    fullPath: /Users/chourensei/Desktop/Unity/mathgoroku_public/Library/Artifacts/40/403af08f65b69051286307f6c41227a0
-    projectPath: Library/Artifacts/40/403af08f65b69051286307f6c41227a0
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
+    indexStatus: 1
+    workTreeStatus: 1
   - path: Library/Artifacts/40/4074a6c2e61d90ae8e3651ef7bce0e71
     fullPath: /Users/chourensei/Desktop/Unity/mathgoroku_public/Library/Artifacts/40/4074a6c2e61d90ae8e3651ef7bce0e71
     projectPath: Library/Artifacts/40/4074a6c2e61d90ae8e3651ef7bce0e71
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library/Artifacts/42/420f2d9ce8aeb6c3822c4ba6c7178f19
-    fullPath: /Users/chourensei/Desktop/Unity/mathgoroku_public/Library/Artifacts/42/420f2d9ce8aeb6c3822c4ba6c7178f19
-    projectPath: Library/Artifacts/42/420f2d9ce8aeb6c3822c4ba6c7178f19
-    originalPath: 
     indexStatus: 0
     workTreeStatus: 5
+  - path: Library/Artifacts/40/409426b0d5455e14b85da31f2a8a4153
+    fullPath: /Users/chourensei/Desktop/Unity/mathgoroku_public/Library/Artifacts/40/409426b0d5455e14b85da31f2a8a4153
+    projectPath: Library/Artifacts/40/409426b0d5455e14b85da31f2a8a4153
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
   - path: Library/Artifacts/42/4280871e405274568a594601cd05c231
     fullPath: /Users/chourensei/Desktop/Unity/mathgoroku_public/Library/Artifacts/42/4280871e405274568a594601cd05c231
     projectPath: Library/Artifacts/42/4280871e405274568a594601cd05c231
     originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library/Artifacts/43/43461a79d5504d4d7f1e98473c9892d9
+    fullPath: /Users/chourensei/Desktop/Unity/mathgoroku_public/Library/Artifacts/43/43461a79d5504d4d7f1e98473c9892d9
+    projectPath: Library/Artifacts/43/43461a79d5504d4d7f1e98473c9892d9
+    originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Library/Artifacts/42/42cdf1085f0b9345cb63785d70e0c105
-    fullPath: /Users/chourensei/Desktop/Unity/mathgoroku_public/Library/Artifacts/42/42cdf1085f0b9345cb63785d70e0c105
-    projectPath: Library/Artifacts/42/42cdf1085f0b9345cb63785d70e0c105
+  - path: Library/Artifacts/43/436772f6a3e4040d634b455df0430431
+    fullPath: /Users/chourensei/Desktop/Unity/mathgoroku_public/Library/Artifacts/43/436772f6a3e4040d634b455df0430431
+    projectPath: Library/Artifacts/43/436772f6a3e4040d634b455df0430431
     originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library/Artifacts/43/439c1396efde8a85e8e1628a6938ce2b
-    fullPath: /Users/chourensei/Desktop/Unity/mathgoroku_public/Library/Artifacts/43/439c1396efde8a85e8e1628a6938ce2b
-    projectPath: Library/Artifacts/43/439c1396efde8a85e8e1628a6938ce2b
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library/Artifacts/44/440025470dad3afd6644d14977c9aeaf
+    fullPath: /Users/chourensei/Desktop/Unity/mathgoroku_public/Library/Artifacts/44/440025470dad3afd6644d14977c9aeaf
+    projectPath: Library/Artifacts/44/440025470dad3afd6644d14977c9aeaf
     originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library/Artifacts/44/44e03baf41f2d1df28b0b2eddf9916a7
-    fullPath: /Users/chourensei/Desktop/Unity/mathgoroku_public/Library/Artifacts/44/44e03baf41f2d1df28b0b2eddf9916a7
-    projectPath: Library/Artifacts/44/44e03baf41f2d1df28b0b2eddf9916a7
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library/Artifacts/44/445e9004ec6845c9fd3ab7452569846a
+    fullPath: /Users/chourensei/Desktop/Unity/mathgoroku_public/Library/Artifacts/44/445e9004ec6845c9fd3ab7452569846a
+    projectPath: Library/Artifacts/44/445e9004ec6845c9fd3ab7452569846a
     originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library/Artifacts/45/452ddd857bf1c9169f8ee837402ac296
-    fullPath: /Users/chourensei/Desktop/Unity/mathgoroku_public/Library/Artifacts/45/452ddd857bf1c9169f8ee837402ac296
-    projectPath: Library/Artifacts/45/452ddd857bf1c9169f8ee837402ac296
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library/Artifacts/45/4507c5a75dc9aab60c27fa626ded6bc9
+    fullPath: /Users/chourensei/Desktop/Unity/mathgoroku_public/Library/Artifacts/45/4507c5a75dc9aab60c27fa626ded6bc9
+    projectPath: Library/Artifacts/45/4507c5a75dc9aab60c27fa626ded6bc9
     originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library/Artifacts/46/46770c6de1c6ab523f39f32281d082d2
-    fullPath: /Users/chourensei/Desktop/Unity/mathgoroku_public/Library/Artifacts/46/46770c6de1c6ab523f39f32281d082d2
-    projectPath: Library/Artifacts/46/46770c6de1c6ab523f39f32281d082d2
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library/Artifacts/45/4531e51e0a963c4dd7537fb2436f1dd7
+    fullPath: /Users/chourensei/Desktop/Unity/mathgoroku_public/Library/Artifacts/45/4531e51e0a963c4dd7537fb2436f1dd7
+    projectPath: Library/Artifacts/45/4531e51e0a963c4dd7537fb2436f1dd7
     originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library/Artifacts/48/4847b42071a7eac54855e7d5f3247629
-    fullPath: /Users/chourensei/Desktop/Unity/mathgoroku_public/Library/Artifacts/48/4847b42071a7eac54855e7d5f3247629
-    projectPath: Library/Artifacts/48/4847b42071a7eac54855e7d5f3247629
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library/Artifacts/45/45d2288e26cda5e9e1b0b43b56a6ac4e
+    fullPath: /Users/chourensei/Desktop/Unity/mathgoroku_public/Library/Artifacts/45/45d2288e26cda5e9e1b0b43b56a6ac4e
+    projectPath: Library/Artifacts/45/45d2288e26cda5e9e1b0b43b56a6ac4e
     originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library/Artifacts/48/487449b2a649cd9a5284331a99c5203b
-    fullPath: /Users/chourensei/Desktop/Unity/mathgoroku_public/Library/Artifacts/48/487449b2a649cd9a5284331a99c5203b
-    projectPath: Library/Artifacts/48/487449b2a649cd9a5284331a99c5203b
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library/Artifacts/46/46367379a8ec2c38910a5bdb55773beb
+    fullPath: /Users/chourensei/Desktop/Unity/mathgoroku_public/Library/Artifacts/46/46367379a8ec2c38910a5bdb55773beb
+    projectPath: Library/Artifacts/46/46367379a8ec2c38910a5bdb55773beb
     originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library/Artifacts/4b/4b7974d0376132faf70c32d100c44697
-    fullPath: /Users/chourensei/Desktop/Unity/mathgoroku_public/Library/Artifacts/4b/4b7974d0376132faf70c32d100c44697
-    projectPath: Library/Artifacts/4b/4b7974d0376132faf70c32d100c44697
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library/Artifacts/46/46846b7d42cbe4711c3853126cb4ddae
+    fullPath: /Users/chourensei/Desktop/Unity/mathgoroku_public/Library/Artifacts/46/46846b7d42cbe4711c3853126cb4ddae
+    projectPath: Library/Artifacts/46/46846b7d42cbe4711c3853126cb4ddae
     originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library/Artifacts/4c/4c86a943bc6ba9504dfedd67f6820000
-    fullPath: /Users/chourensei/Desktop/Unity/mathgoroku_public/Library/Artifacts/4c/4c86a943bc6ba9504dfedd67f6820000
-    projectPath: Library/Artifacts/4c/4c86a943bc6ba9504dfedd67f6820000
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library/Artifacts/47/476714a3d25c206f25c26096c922d2c5
+    fullPath: /Users/chourensei/Desktop/Unity/mathgoroku_public/Library/Artifacts/47/476714a3d25c206f25c26096c922d2c5
+    projectPath: Library/Artifacts/47/476714a3d25c206f25c26096c922d2c5
     originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library/Artifacts/4d/4d1e25a87da4f1738eaa0709807f2158
-    fullPath: /Users/chourensei/Desktop/Unity/mathgoroku_public/Library/Artifacts/4d/4d1e25a87da4f1738eaa0709807f2158
-    projectPath: Library/Artifacts/4d/4d1e25a87da4f1738eaa0709807f2158
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library/Artifacts/47/477d2da8d451e548a206f01f10cfea59
+    fullPath: /Users/chourensei/Desktop/Unity/mathgoroku_public/Library/Artifacts/47/477d2da8d451e548a206f01f10cfea59
+    projectPath: Library/Artifacts/47/477d2da8d451e548a206f01f10cfea59
     originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library/Artifacts/49/497fe0e8661a1d17500ed1b4b31ae26d
+    fullPath: /Users/chourensei/Desktop/Unity/mathgoroku_public/Library/Artifacts/49/497fe0e8661a1d17500ed1b4b31ae26d
+    projectPath: Library/Artifacts/49/497fe0e8661a1d17500ed1b4b31ae26d
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
   - path: Library/Artifacts/4d/4df6408f36e6cfcc3c2ebbd0102c728b
     fullPath: /Users/chourensei/Desktop/Unity/mathgoroku_public/Library/Artifacts/4d/4df6408f36e6cfcc3c2ebbd0102c728b
     projectPath: Library/Artifacts/4d/4df6408f36e6cfcc3c2ebbd0102c728b
     originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library/Artifacts/4f/4f4e5160afe204a58c88ddb03403b747
+    fullPath: /Users/chourensei/Desktop/Unity/mathgoroku_public/Library/Artifacts/4f/4f4e5160afe204a58c88ddb03403b747
+    projectPath: Library/Artifacts/4f/4f4e5160afe204a58c88ddb03403b747
+    originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Library/Artifacts/4e/4ec541a4d555350f251fb35c46992508
-    fullPath: /Users/chourensei/Desktop/Unity/mathgoroku_public/Library/Artifacts/4e/4ec541a4d555350f251fb35c46992508
-    projectPath: Library/Artifacts/4e/4ec541a4d555350f251fb35c46992508
+  - path: Library/Artifacts/50/508a51b3c10cc52bd9b2d419ace41b88
+    fullPath: /Users/chourensei/Desktop/Unity/mathgoroku_public/Library/Artifacts/50/508a51b3c10cc52bd9b2d419ace41b88
+    projectPath: Library/Artifacts/50/508a51b3c10cc52bd9b2d419ace41b88
     originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library/Artifacts/50/5043a1907b65eb6c6e110e6be113ed7a
-    fullPath: /Users/chourensei/Desktop/Unity/mathgoroku_public/Library/Artifacts/50/5043a1907b65eb6c6e110e6be113ed7a
-    projectPath: Library/Artifacts/50/5043a1907b65eb6c6e110e6be113ed7a
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library/Artifacts/52/5259172fdbf489377eea15b78e10c39c
+    fullPath: /Users/chourensei/Desktop/Unity/mathgoroku_public/Library/Artifacts/52/5259172fdbf489377eea15b78e10c39c
+    projectPath: Library/Artifacts/52/5259172fdbf489377eea15b78e10c39c
     originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library/Artifacts/50/50a501ba23bc4ae60c0f7ef83a9fb05c
-    fullPath: /Users/chourensei/Desktop/Unity/mathgoroku_public/Library/Artifacts/50/50a501ba23bc4ae60c0f7ef83a9fb05c
-    projectPath: Library/Artifacts/50/50a501ba23bc4ae60c0f7ef83a9fb05c
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library/Artifacts/53/53a0b566574f50642b08cb92df1b4612
+    fullPath: /Users/chourensei/Desktop/Unity/mathgoroku_public/Library/Artifacts/53/53a0b566574f50642b08cb92df1b4612
+    projectPath: Library/Artifacts/53/53a0b566574f50642b08cb92df1b4612
     originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library/Artifacts/54/545d9b4255b6c0a8edf9ff6f2b4afa87
-    fullPath: /Users/chourensei/Desktop/Unity/mathgoroku_public/Library/Artifacts/54/545d9b4255b6c0a8edf9ff6f2b4afa87
-    projectPath: Library/Artifacts/54/545d9b4255b6c0a8edf9ff6f2b4afa87
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library/Artifacts/54/54b379843a39a4b4bc7862cb8ff2ed33
+    fullPath: /Users/chourensei/Desktop/Unity/mathgoroku_public/Library/Artifacts/54/54b379843a39a4b4bc7862cb8ff2ed33
+    projectPath: Library/Artifacts/54/54b379843a39a4b4bc7862cb8ff2ed33
     originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library/Artifacts/5a/5a97ca833aac4dd5cb21ffe274ec802b
-    fullPath: /Users/chourensei/Desktop/Unity/mathgoroku_public/Library/Artifacts/5a/5a97ca833aac4dd5cb21ffe274ec802b
-    projectPath: Library/Artifacts/5a/5a97ca833aac4dd5cb21ffe274ec802b
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library/Artifacts/55/5516eec4ccaa3e48dcac5759b67b5281
+    fullPath: /Users/chourensei/Desktop/Unity/mathgoroku_public/Library/Artifacts/55/5516eec4ccaa3e48dcac5759b67b5281
+    projectPath: Library/Artifacts/55/5516eec4ccaa3e48dcac5759b67b5281
     originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library/Artifacts/5b/5b6f80bbf439fc8f20a1efc883d617be
-    fullPath: /Users/chourensei/Desktop/Unity/mathgoroku_public/Library/Artifacts/5b/5b6f80bbf439fc8f20a1efc883d617be
-    projectPath: Library/Artifacts/5b/5b6f80bbf439fc8f20a1efc883d617be
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library/Artifacts/58/588ee2ab2a4069781a33236f4bce92a1
+    fullPath: /Users/chourensei/Desktop/Unity/mathgoroku_public/Library/Artifacts/58/588ee2ab2a4069781a33236f4bce92a1
+    projectPath: Library/Artifacts/58/588ee2ab2a4069781a33236f4bce92a1
     originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library/Artifacts/5b/5bf98094aeacc2f1d17b82695d1e4aef
-    fullPath: /Users/chourensei/Desktop/Unity/mathgoroku_public/Library/Artifacts/5b/5bf98094aeacc2f1d17b82695d1e4aef
-    projectPath: Library/Artifacts/5b/5bf98094aeacc2f1d17b82695d1e4aef
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library/Artifacts/59/59499252acf0b76a1a1dc105b257158f
+    fullPath: /Users/chourensei/Desktop/Unity/mathgoroku_public/Library/Artifacts/59/59499252acf0b76a1a1dc105b257158f
+    projectPath: Library/Artifacts/59/59499252acf0b76a1a1dc105b257158f
     originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library/Artifacts/59/59e3c559bad3fcf2129c93988ca221cd
+    fullPath: /Users/chourensei/Desktop/Unity/mathgoroku_public/Library/Artifacts/59/59e3c559bad3fcf2129c93988ca221cd
+    projectPath: Library/Artifacts/59/59e3c559bad3fcf2129c93988ca221cd
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library/Artifacts/5a/5afa87fd6526ce287cbfb8b3ba914fd4
+    fullPath: /Users/chourensei/Desktop/Unity/mathgoroku_public/Library/Artifacts/5a/5afa87fd6526ce287cbfb8b3ba914fd4
+    projectPath: Library/Artifacts/5a/5afa87fd6526ce287cbfb8b3ba914fd4
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library/Artifacts/5b/5bab5378617fd51c3ac4932627e42b5e
+    fullPath: /Users/chourensei/Desktop/Unity/mathgoroku_public/Library/Artifacts/5b/5bab5378617fd51c3ac4932627e42b5e
+    projectPath: Library/Artifacts/5b/5bab5378617fd51c3ac4932627e42b5e
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library/Artifacts/5c/5c190543de050440c668b042748831eb
+    fullPath: /Users/chourensei/Desktop/Unity/mathgoroku_public/Library/Artifacts/5c/5c190543de050440c668b042748831eb
+    projectPath: Library/Artifacts/5c/5c190543de050440c668b042748831eb
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library/Artifacts/5d/5d3a060205602c5046f87bf7caaee450
+    fullPath: /Users/chourensei/Desktop/Unity/mathgoroku_public/Library/Artifacts/5d/5d3a060205602c5046f87bf7caaee450
+    projectPath: Library/Artifacts/5d/5d3a060205602c5046f87bf7caaee450
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
   - path: Library/Artifacts/5d/5d9d82345ac1bab1d2853a5ea1385807
     fullPath: /Users/chourensei/Desktop/Unity/mathgoroku_public/Library/Artifacts/5d/5d9d82345ac1bab1d2853a5ea1385807
     projectPath: Library/Artifacts/5d/5d9d82345ac1bab1d2853a5ea1385807
     originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library/Artifacts/5e/5e9425c3197e94f19015265af5bbe0a8
+    fullPath: /Users/chourensei/Desktop/Unity/mathgoroku_public/Library/Artifacts/5e/5e9425c3197e94f19015265af5bbe0a8
+    projectPath: Library/Artifacts/5e/5e9425c3197e94f19015265af5bbe0a8
+    originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Library/Artifacts/5e/5ee0fbb4cae3cac17568e8f3a9963fac
-    fullPath: /Users/chourensei/Desktop/Unity/mathgoroku_public/Library/Artifacts/5e/5ee0fbb4cae3cac17568e8f3a9963fac
-    projectPath: Library/Artifacts/5e/5ee0fbb4cae3cac17568e8f3a9963fac
+  - path: Library/Artifacts/5f/5f104e5b430ebe780216cefe2cdfaee9
+    fullPath: /Users/chourensei/Desktop/Unity/mathgoroku_public/Library/Artifacts/5f/5f104e5b430ebe780216cefe2cdfaee9
+    projectPath: Library/Artifacts/5f/5f104e5b430ebe780216cefe2cdfaee9
     originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library/Artifacts/5f/5f9b6cfdd77b591ba2d5b40c74e2ce7a
-    fullPath: /Users/chourensei/Desktop/Unity/mathgoroku_public/Library/Artifacts/5f/5f9b6cfdd77b591ba2d5b40c74e2ce7a
-    projectPath: Library/Artifacts/5f/5f9b6cfdd77b591ba2d5b40c74e2ce7a
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library/Artifacts/5f/5f87343ef277942992106403a55f27cc
+    fullPath: /Users/chourensei/Desktop/Unity/mathgoroku_public/Library/Artifacts/5f/5f87343ef277942992106403a55f27cc
+    projectPath: Library/Artifacts/5f/5f87343ef277942992106403a55f27cc
     originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library/Artifacts/5f/5fa7d2554fcf859ab4247325597d5bad
+    fullPath: /Users/chourensei/Desktop/Unity/mathgoroku_public/Library/Artifacts/5f/5fa7d2554fcf859ab4247325597d5bad
+    projectPath: Library/Artifacts/5f/5fa7d2554fcf859ab4247325597d5bad
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
   - path: Library/Artifacts/60/609e281c7c93efa7e617ef87b39e5eeb
     fullPath: /Users/chourensei/Desktop/Unity/mathgoroku_public/Library/Artifacts/60/609e281c7c93efa7e617ef87b39e5eeb
     projectPath: Library/Artifacts/60/609e281c7c93efa7e617ef87b39e5eeb
     originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library/Artifacts/62/62150aff267001bc165a1a07da0239ee
+    fullPath: /Users/chourensei/Desktop/Unity/mathgoroku_public/Library/Artifacts/62/62150aff267001bc165a1a07da0239ee
+    projectPath: Library/Artifacts/62/62150aff267001bc165a1a07da0239ee
+    originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Library/Artifacts/62/6215c7469c4fc87539b409d542511bcf
-    fullPath: /Users/chourensei/Desktop/Unity/mathgoroku_public/Library/Artifacts/62/6215c7469c4fc87539b409d542511bcf
-    projectPath: Library/Artifacts/62/6215c7469c4fc87539b409d542511bcf
+  - path: Library/Artifacts/62/624e05e4ef9541bbc245827e6b57f1a3
+    fullPath: /Users/chourensei/Desktop/Unity/mathgoroku_public/Library/Artifacts/62/624e05e4ef9541bbc245827e6b57f1a3
+    projectPath: Library/Artifacts/62/624e05e4ef9541bbc245827e6b57f1a3
     originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library/Artifacts/62/6215d4b7afaade961cc87e682d45fda0
-    fullPath: /Users/chourensei/Desktop/Unity/mathgoroku_public/Library/Artifacts/62/6215d4b7afaade961cc87e682d45fda0
-    projectPath: Library/Artifacts/62/6215d4b7afaade961cc87e682d45fda0
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library/Artifacts/62/624e8e065f8db3bd55e6285e1a57d64c
+    fullPath: /Users/chourensei/Desktop/Unity/mathgoroku_public/Library/Artifacts/62/624e8e065f8db3bd55e6285e1a57d64c
+    projectPath: Library/Artifacts/62/624e8e065f8db3bd55e6285e1a57d64c
     originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library/Artifacts/62/62c387780610a10d69ea617130d0f250
+    fullPath: /Users/chourensei/Desktop/Unity/mathgoroku_public/Library/Artifacts/62/62c387780610a10d69ea617130d0f250
+    projectPath: Library/Artifacts/62/62c387780610a10d69ea617130d0f250
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
   - path: Library/Artifacts/64/6489fc026d1df81f344d0cd56bc3afb4
     fullPath: /Users/chourensei/Desktop/Unity/mathgoroku_public/Library/Artifacts/64/6489fc026d1df81f344d0cd56bc3afb4
     projectPath: Library/Artifacts/64/6489fc026d1df81f344d0cd56bc3afb4
     originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library/Artifacts/67/677b8613c9f311a0f7a580bd001bdd53
+    fullPath: /Users/chourensei/Desktop/Unity/mathgoroku_public/Library/Artifacts/67/677b8613c9f311a0f7a580bd001bdd53
+    projectPath: Library/Artifacts/67/677b8613c9f311a0f7a580bd001bdd53
+    originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Library/Artifacts/67/6738889ef873ae4268bc4c5f29b96af0
-    fullPath: /Users/chourensei/Desktop/Unity/mathgoroku_public/Library/Artifacts/67/6738889ef873ae4268bc4c5f29b96af0
-    projectPath: Library/Artifacts/67/6738889ef873ae4268bc4c5f29b96af0
+  - path: Library/Artifacts/68/683f4b07e15d5c5dcc5500937bd59b5c
+    fullPath: /Users/chourensei/Desktop/Unity/mathgoroku_public/Library/Artifacts/68/683f4b07e15d5c5dcc5500937bd59b5c
+    projectPath: Library/Artifacts/68/683f4b07e15d5c5dcc5500937bd59b5c
     originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library/Artifacts/69/694faccbfabc7c09d0847fc128e536eb
-    fullPath: /Users/chourensei/Desktop/Unity/mathgoroku_public/Library/Artifacts/69/694faccbfabc7c09d0847fc128e536eb
-    projectPath: Library/Artifacts/69/694faccbfabc7c09d0847fc128e536eb
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library/Artifacts/6a/6aa7027ed598364eaf29cae565f62632
+    fullPath: /Users/chourensei/Desktop/Unity/mathgoroku_public/Library/Artifacts/6a/6aa7027ed598364eaf29cae565f62632
+    projectPath: Library/Artifacts/6a/6aa7027ed598364eaf29cae565f62632
     originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library/Artifacts/6b/6b8a7ddf262908b38b30351f5bc25577
-    fullPath: /Users/chourensei/Desktop/Unity/mathgoroku_public/Library/Artifacts/6b/6b8a7ddf262908b38b30351f5bc25577
-    projectPath: Library/Artifacts/6b/6b8a7ddf262908b38b30351f5bc25577
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library/Artifacts/6a/6ad8e98b22b82ee56af4cbc881440ff1
+    fullPath: /Users/chourensei/Desktop/Unity/mathgoroku_public/Library/Artifacts/6a/6ad8e98b22b82ee56af4cbc881440ff1
+    projectPath: Library/Artifacts/6a/6ad8e98b22b82ee56af4cbc881440ff1
     originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library/Artifacts/6d/6d5c3d9f7e4d5dde70cece52798a59f2
-    fullPath: /Users/chourensei/Desktop/Unity/mathgoroku_public/Library/Artifacts/6d/6d5c3d9f7e4d5dde70cece52798a59f2
-    projectPath: Library/Artifacts/6d/6d5c3d9f7e4d5dde70cece52798a59f2
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library/Artifacts/6b/6bad6e0ef419c9703a4d620ef747de6c
+    fullPath: /Users/chourensei/Desktop/Unity/mathgoroku_public/Library/Artifacts/6b/6bad6e0ef419c9703a4d620ef747de6c
+    projectPath: Library/Artifacts/6b/6bad6e0ef419c9703a4d620ef747de6c
     originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library/Artifacts/6e/6ea30d6ab18c37756687daddbf74d1e6
-    fullPath: /Users/chourensei/Desktop/Unity/mathgoroku_public/Library/Artifacts/6e/6ea30d6ab18c37756687daddbf74d1e6
-    projectPath: Library/Artifacts/6e/6ea30d6ab18c37756687daddbf74d1e6
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library/Artifacts/6b/6bc9537dc343873b58c2db089527f151
+    fullPath: /Users/chourensei/Desktop/Unity/mathgoroku_public/Library/Artifacts/6b/6bc9537dc343873b58c2db089527f151
+    projectPath: Library/Artifacts/6b/6bc9537dc343873b58c2db089527f151
     originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library/Artifacts/71/71336b988e3a018c8e42bf7c5f241569
-    fullPath: /Users/chourensei/Desktop/Unity/mathgoroku_public/Library/Artifacts/71/71336b988e3a018c8e42bf7c5f241569
-    projectPath: Library/Artifacts/71/71336b988e3a018c8e42bf7c5f241569
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library/Artifacts/6c/6c67e481c2b46cda310cbc76fd9d6a24
+    fullPath: /Users/chourensei/Desktop/Unity/mathgoroku_public/Library/Artifacts/6c/6c67e481c2b46cda310cbc76fd9d6a24
+    projectPath: Library/Artifacts/6c/6c67e481c2b46cda310cbc76fd9d6a24
     originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library/Artifacts/72/72ba773105ddd98d5ecf656c76efdb2f
-    fullPath: /Users/chourensei/Desktop/Unity/mathgoroku_public/Library/Artifacts/72/72ba773105ddd98d5ecf656c76efdb2f
-    projectPath: Library/Artifacts/72/72ba773105ddd98d5ecf656c76efdb2f
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library/Artifacts/6e/6ebda450b57693a0bea9cdb4463493ad
+    fullPath: /Users/chourensei/Desktop/Unity/mathgoroku_public/Library/Artifacts/6e/6ebda450b57693a0bea9cdb4463493ad
+    projectPath: Library/Artifacts/6e/6ebda450b57693a0bea9cdb4463493ad
     originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library/Artifacts/72/72e31672917485492e4f16db6bc96b7e
-    fullPath: /Users/chourensei/Desktop/Unity/mathgoroku_public/Library/Artifacts/72/72e31672917485492e4f16db6bc96b7e
-    projectPath: Library/Artifacts/72/72e31672917485492e4f16db6bc96b7e
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library/Artifacts/6f/6f4996022b1fb9ef2b8874e72685b472
+    fullPath: /Users/chourensei/Desktop/Unity/mathgoroku_public/Library/Artifacts/6f/6f4996022b1fb9ef2b8874e72685b472
+    projectPath: Library/Artifacts/6f/6f4996022b1fb9ef2b8874e72685b472
     originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library/Artifacts/6f/6fe8d5e66952f37fa5cb6c1b920f2d0d
+    fullPath: /Users/chourensei/Desktop/Unity/mathgoroku_public/Library/Artifacts/6f/6fe8d5e66952f37fa5cb6c1b920f2d0d
+    projectPath: Library/Artifacts/6f/6fe8d5e66952f37fa5cb6c1b920f2d0d
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library/Artifacts/71/7112add33dfe1be452b2330825b38570
+    fullPath: /Users/chourensei/Desktop/Unity/mathgoroku_public/Library/Artifacts/71/7112add33dfe1be452b2330825b38570
+    projectPath: Library/Artifacts/71/7112add33dfe1be452b2330825b38570
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library/Artifacts/71/713487b1eebd0722d8f63537eb441998
+    fullPath: /Users/chourensei/Desktop/Unity/mathgoroku_public/Library/Artifacts/71/713487b1eebd0722d8f63537eb441998
+    projectPath: Library/Artifacts/71/713487b1eebd0722d8f63537eb441998
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library/Artifacts/71/7192904db0c84fb38af91070d9158bf2
+    fullPath: /Users/chourensei/Desktop/Unity/mathgoroku_public/Library/Artifacts/71/7192904db0c84fb38af91070d9158bf2
+    projectPath: Library/Artifacts/71/7192904db0c84fb38af91070d9158bf2
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library/Artifacts/72/7211c487b63250cd5fbc35d76752260e
+    fullPath: /Users/chourensei/Desktop/Unity/mathgoroku_public/Library/Artifacts/72/7211c487b63250cd5fbc35d76752260e
+    projectPath: Library/Artifacts/72/7211c487b63250cd5fbc35d76752260e
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
   - path: Library/Artifacts/74/74abe31ebe6cf5b01e6f112e7fb08760
     fullPath: /Users/chourensei/Desktop/Unity/mathgoroku_public/Library/Artifacts/74/74abe31ebe6cf5b01e6f112e7fb08760
     projectPath: Library/Artifacts/74/74abe31ebe6cf5b01e6f112e7fb08760
     originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library/Artifacts/75/75a2220c8e55385966bcb1d061926cbc
+    fullPath: /Users/chourensei/Desktop/Unity/mathgoroku_public/Library/Artifacts/75/75a2220c8e55385966bcb1d061926cbc
+    projectPath: Library/Artifacts/75/75a2220c8e55385966bcb1d061926cbc
+    originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Library/Artifacts/76/76f9fd9a6730203a0a14acfb5856389d
-    fullPath: /Users/chourensei/Desktop/Unity/mathgoroku_public/Library/Artifacts/76/76f9fd9a6730203a0a14acfb5856389d
-    projectPath: Library/Artifacts/76/76f9fd9a6730203a0a14acfb5856389d
+  - path: Library/Artifacts/75/75f9dffe8dd210a7ba5ab1f132cef5cb
+    fullPath: /Users/chourensei/Desktop/Unity/mathgoroku_public/Library/Artifacts/75/75f9dffe8dd210a7ba5ab1f132cef5cb
+    projectPath: Library/Artifacts/75/75f9dffe8dd210a7ba5ab1f132cef5cb
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library/Artifacts/79/790c0f4691998ed20de9e3e7430d25cc
+    fullPath: /Users/chourensei/Desktop/Unity/mathgoroku_public/Library/Artifacts/79/790c0f4691998ed20de9e3e7430d25cc
+    projectPath: Library/Artifacts/79/790c0f4691998ed20de9e3e7430d25cc
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library/Artifacts/7a/7a9d1ef6542cab917897443f32546799
+    fullPath: /Users/chourensei/Desktop/Unity/mathgoroku_public/Library/Artifacts/7a/7a9d1ef6542cab917897443f32546799
+    projectPath: Library/Artifacts/7a/7a9d1ef6542cab917897443f32546799
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library/Artifacts/7a/7ad84243134c1951742460884fc77d92
+    fullPath: /Users/chourensei/Desktop/Unity/mathgoroku_public/Library/Artifacts/7a/7ad84243134c1951742460884fc77d92
+    projectPath: Library/Artifacts/7a/7ad84243134c1951742460884fc77d92
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library/Artifacts/7b/7b1e668d143fb5f67d1152731214ce34
+    fullPath: /Users/chourensei/Desktop/Unity/mathgoroku_public/Library/Artifacts/7b/7b1e668d143fb5f67d1152731214ce34
+    projectPath: Library/Artifacts/7b/7b1e668d143fb5f67d1152731214ce34
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library/Artifacts/7b/7b29c0bb09a6dad8cbc1465f0e2aa419
+    fullPath: /Users/chourensei/Desktop/Unity/mathgoroku_public/Library/Artifacts/7b/7b29c0bb09a6dad8cbc1465f0e2aa419
+    projectPath: Library/Artifacts/7b/7b29c0bb09a6dad8cbc1465f0e2aa419
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library/Artifacts/86/862df859b741bb5c4e7a2fe206fce3e5
+    fullPath: /Users/chourensei/Desktop/Unity/mathgoroku_public/Library/Artifacts/86/862df859b741bb5c4e7a2fe206fce3e5
+    projectPath: Library/Artifacts/86/862df859b741bb5c4e7a2fe206fce3e5
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library/Artifacts/89/89b9a35f96d937d7f7fc830fff99c39b
+    fullPath: /Users/chourensei/Desktop/Unity/mathgoroku_public/Library/Artifacts/89/89b9a35f96d937d7f7fc830fff99c39b
+    projectPath: Library/Artifacts/89/89b9a35f96d937d7f7fc830fff99c39b
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library/Artifacts/8a/8af70761c5ef48ae89bb367286f42f42
+    fullPath: /Users/chourensei/Desktop/Unity/mathgoroku_public/Library/Artifacts/8a/8af70761c5ef48ae89bb367286f42f42
+    projectPath: Library/Artifacts/8a/8af70761c5ef48ae89bb367286f42f42
     originalPath: 
     indexStatus: 0
     workTreeStatus: 5
-  - path: Library/Artifacts/78/781bbde78fef23e00af4901a8eaa4f52
-    fullPath: /Users/chourensei/Desktop/Unity/mathgoroku_public/Library/Artifacts/78/781bbde78fef23e00af4901a8eaa4f52
-    projectPath: Library/Artifacts/78/781bbde78fef23e00af4901a8eaa4f52
+  - path: Library/Artifacts/8c/8cb1c94a7179cd81fb328f462443ecc6
+    fullPath: /Users/chourensei/Desktop/Unity/mathgoroku_public/Library/Artifacts/8c/8cb1c94a7179cd81fb328f462443ecc6
+    projectPath: Library/Artifacts/8c/8cb1c94a7179cd81fb328f462443ecc6
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library/Artifacts/8e/8e35c95b73822798718088ab3f51cb4e
+    fullPath: /Users/chourensei/Desktop/Unity/mathgoroku_public/Library/Artifacts/8e/8e35c95b73822798718088ab3f51cb4e
+    projectPath: Library/Artifacts/8e/8e35c95b73822798718088ab3f51cb4e
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library/Artifacts/92/920f09f29ae7ed2242ceda9107d25f0c
+    fullPath: /Users/chourensei/Desktop/Unity/mathgoroku_public/Library/Artifacts/92/920f09f29ae7ed2242ceda9107d25f0c
+    projectPath: Library/Artifacts/92/920f09f29ae7ed2242ceda9107d25f0c
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library/Artifacts/93/93201127d049658623ba7b9f12208710
+    fullPath: /Users/chourensei/Desktop/Unity/mathgoroku_public/Library/Artifacts/93/93201127d049658623ba7b9f12208710
+    projectPath: Library/Artifacts/93/93201127d049658623ba7b9f12208710
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library/Artifacts/94/941f1fc86e19b5d111ef191b6635d58b
+    fullPath: /Users/chourensei/Desktop/Unity/mathgoroku_public/Library/Artifacts/94/941f1fc86e19b5d111ef191b6635d58b
+    projectPath: Library/Artifacts/94/941f1fc86e19b5d111ef191b6635d58b
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library/Artifacts/94/944ea2ce954207a5e0c0cd6e6118a5b2
+    fullPath: /Users/chourensei/Desktop/Unity/mathgoroku_public/Library/Artifacts/94/944ea2ce954207a5e0c0cd6e6118a5b2
+    projectPath: Library/Artifacts/94/944ea2ce954207a5e0c0cd6e6118a5b2
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library/Artifacts/94/94af807bf729dd156b86912e8ea44fef
+    fullPath: /Users/chourensei/Desktop/Unity/mathgoroku_public/Library/Artifacts/94/94af807bf729dd156b86912e8ea44fef
+    projectPath: Library/Artifacts/94/94af807bf729dd156b86912e8ea44fef
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library/Artifacts/96/964e09e584367bdc387de1427a1f6054
+    fullPath: /Users/chourensei/Desktop/Unity/mathgoroku_public/Library/Artifacts/96/964e09e584367bdc387de1427a1f6054
+    projectPath: Library/Artifacts/96/964e09e584367bdc387de1427a1f6054
     originalPath: 
     indexStatus: 0
     workTreeStatus: 5
-  - path: Library/Artifacts/78/78972352a3c8ae8944ae570abc6e5738
-    fullPath: /Users/chourensei/Desktop/Unity/mathgoroku_public/Library/Artifacts/78/78972352a3c8ae8944ae570abc6e5738
-    projectPath: Library/Artifacts/78/78972352a3c8ae8944ae570abc6e5738
+  - path: Library/Artifacts/97/9706f841938093994e09f340f9daf011
+    fullPath: /Users/chourensei/Desktop/Unity/mathgoroku_public/Library/Artifacts/97/9706f841938093994e09f340f9daf011
+    projectPath: Library/Artifacts/97/9706f841938093994e09f340f9daf011
     originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library/Artifacts/7d/7d1f55bc22706df316eea2268cf088d9
-    fullPath: /Users/chourensei/Desktop/Unity/mathgoroku_public/Library/Artifacts/7d/7d1f55bc22706df316eea2268cf088d9
-    projectPath: Library/Artifacts/7d/7d1f55bc22706df316eea2268cf088d9
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library/Artifacts/7d/7db31d50b98180d847a6231bd671e10c
-    fullPath: /Users/chourensei/Desktop/Unity/mathgoroku_public/Library/Artifacts/7d/7db31d50b98180d847a6231bd671e10c
-    projectPath: Library/Artifacts/7d/7db31d50b98180d847a6231bd671e10c
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library/Artifacts/7e/7eb1ead9e831ecfcdc814058aa38a4ee
-    fullPath: /Users/chourensei/Desktop/Unity/mathgoroku_public/Library/Artifacts/7e/7eb1ead9e831ecfcdc814058aa38a4ee
-    projectPath: Library/Artifacts/7e/7eb1ead9e831ecfcdc814058aa38a4ee
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library/Artifacts/89/89073c1bd9a317e72f13de5cc0ccfb89
-    fullPath: /Users/chourensei/Desktop/Unity/mathgoroku_public/Library/Artifacts/89/89073c1bd9a317e72f13de5cc0ccfb89
-    projectPath: Library/Artifacts/89/89073c1bd9a317e72f13de5cc0ccfb89
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library/Artifacts/8b/8b54e7d586b199c16e68b437531e3669
-    fullPath: /Users/chourensei/Desktop/Unity/mathgoroku_public/Library/Artifacts/8b/8b54e7d586b199c16e68b437531e3669
-    projectPath: Library/Artifacts/8b/8b54e7d586b199c16e68b437531e3669
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library/Artifacts/8b/8b878e6a53f183ceefb4de08e984c172
-    fullPath: /Users/chourensei/Desktop/Unity/mathgoroku_public/Library/Artifacts/8b/8b878e6a53f183ceefb4de08e984c172
-    projectPath: Library/Artifacts/8b/8b878e6a53f183ceefb4de08e984c172
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library/Artifacts/8d/8d4dba83359efb155a15d440b36ca666
-    fullPath: /Users/chourensei/Desktop/Unity/mathgoroku_public/Library/Artifacts/8d/8d4dba83359efb155a15d440b36ca666
-    projectPath: Library/Artifacts/8d/8d4dba83359efb155a15d440b36ca666
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library/Artifacts/91/9196baab119aa32924c624a7e698a2ce
-    fullPath: /Users/chourensei/Desktop/Unity/mathgoroku_public/Library/Artifacts/91/9196baab119aa32924c624a7e698a2ce
-    projectPath: Library/Artifacts/91/9196baab119aa32924c624a7e698a2ce
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library/Artifacts/92/929e0b501ced119f16c8d6e32fb92bc4
-    fullPath: /Users/chourensei/Desktop/Unity/mathgoroku_public/Library/Artifacts/92/929e0b501ced119f16c8d6e32fb92bc4
-    projectPath: Library/Artifacts/92/929e0b501ced119f16c8d6e32fb92bc4
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library/Artifacts/93/932cb439d1140aa59e719a279acc583c
-    fullPath: /Users/chourensei/Desktop/Unity/mathgoroku_public/Library/Artifacts/93/932cb439d1140aa59e719a279acc583c
-    projectPath: Library/Artifacts/93/932cb439d1140aa59e719a279acc583c
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library/Artifacts/93/9334680b5914f75110040cbb42c08986
-    fullPath: /Users/chourensei/Desktop/Unity/mathgoroku_public/Library/Artifacts/93/9334680b5914f75110040cbb42c08986
-    projectPath: Library/Artifacts/93/9334680b5914f75110040cbb42c08986
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library/Artifacts/95/950f843606d817b3089abefdc8bd5cc7
-    fullPath: /Users/chourensei/Desktop/Unity/mathgoroku_public/Library/Artifacts/95/950f843606d817b3089abefdc8bd5cc7
-    projectPath: Library/Artifacts/95/950f843606d817b3089abefdc8bd5cc7
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library/Artifacts/95/957fe41ff25ade693444e645657e62b8
-    fullPath: /Users/chourensei/Desktop/Unity/mathgoroku_public/Library/Artifacts/95/957fe41ff25ade693444e645657e62b8
-    projectPath: Library/Artifacts/95/957fe41ff25ade693444e645657e62b8
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library/Artifacts/96/964142eb9c9216ba4c04d59746688b85
-    fullPath: /Users/chourensei/Desktop/Unity/mathgoroku_public/Library/Artifacts/96/964142eb9c9216ba4c04d59746688b85
-    projectPath: Library/Artifacts/96/964142eb9c9216ba4c04d59746688b85
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library/Artifacts/96/964acc0d2a34a686d5bb3ea46764f691
-    fullPath: /Users/chourensei/Desktop/Unity/mathgoroku_public/Library/Artifacts/96/964acc0d2a34a686d5bb3ea46764f691
-    projectPath: Library/Artifacts/96/964acc0d2a34a686d5bb3ea46764f691
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library/Artifacts/97/97a320377858fa44d2575a5d363cf4e5
-    fullPath: /Users/chourensei/Desktop/Unity/mathgoroku_public/Library/Artifacts/97/97a320377858fa44d2575a5d363cf4e5
-    projectPath: Library/Artifacts/97/97a320377858fa44d2575a5d363cf4e5
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
+    indexStatus: 1
+    workTreeStatus: 1
   - path: Library/Artifacts/97/97c928d6080d7d47f1a9bea06a45ffa8
     fullPath: /Users/chourensei/Desktop/Unity/mathgoroku_public/Library/Artifacts/97/97c928d6080d7d47f1a9bea06a45ffa8
     projectPath: Library/Artifacts/97/97c928d6080d7d47f1a9bea06a45ffa8
     originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library/Artifacts/98/98a26148741bbea9cb5e786a4afdd775
+    fullPath: /Users/chourensei/Desktop/Unity/mathgoroku_public/Library/Artifacts/98/98a26148741bbea9cb5e786a4afdd775
+    projectPath: Library/Artifacts/98/98a26148741bbea9cb5e786a4afdd775
+    originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Library/Artifacts/97/97f7da1f88c3f451aa397fdc34550275
-    fullPath: /Users/chourensei/Desktop/Unity/mathgoroku_public/Library/Artifacts/97/97f7da1f88c3f451aa397fdc34550275
-    projectPath: Library/Artifacts/97/97f7da1f88c3f451aa397fdc34550275
+  - path: Library/Artifacts/9c/9c34445a18f08813e19101872a98895b
+    fullPath: /Users/chourensei/Desktop/Unity/mathgoroku_public/Library/Artifacts/9c/9c34445a18f08813e19101872a98895b
+    projectPath: Library/Artifacts/9c/9c34445a18f08813e19101872a98895b
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library/Artifacts/9c/9c7f6ac30fbe0a8aacba9d3fba885d0a
+    fullPath: /Users/chourensei/Desktop/Unity/mathgoroku_public/Library/Artifacts/9c/9c7f6ac30fbe0a8aacba9d3fba885d0a
+    projectPath: Library/Artifacts/9c/9c7f6ac30fbe0a8aacba9d3fba885d0a
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library/Artifacts/9e/9e78503a799422ce843368cb8925b6f3
+    fullPath: /Users/chourensei/Desktop/Unity/mathgoroku_public/Library/Artifacts/9e/9e78503a799422ce843368cb8925b6f3
+    projectPath: Library/Artifacts/9e/9e78503a799422ce843368cb8925b6f3
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library/Artifacts/9f/9f0fb1a1a06e2756fc527a1442df968c
+    fullPath: /Users/chourensei/Desktop/Unity/mathgoroku_public/Library/Artifacts/9f/9f0fb1a1a06e2756fc527a1442df968c
+    projectPath: Library/Artifacts/9f/9f0fb1a1a06e2756fc527a1442df968c
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library/Artifacts/9f/9fc1b82f8d11d8e5ecf43936f2460378
+    fullPath: /Users/chourensei/Desktop/Unity/mathgoroku_public/Library/Artifacts/9f/9fc1b82f8d11d8e5ecf43936f2460378
+    projectPath: Library/Artifacts/9f/9fc1b82f8d11d8e5ecf43936f2460378
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library/Artifacts/a4/a435170e301739c3fb4c461ca4e94eeb
+    fullPath: /Users/chourensei/Desktop/Unity/mathgoroku_public/Library/Artifacts/a4/a435170e301739c3fb4c461ca4e94eeb
+    projectPath: Library/Artifacts/a4/a435170e301739c3fb4c461ca4e94eeb
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library/Artifacts/a6/a6c77bea1ba218c96511f26f21fda3f3
+    fullPath: /Users/chourensei/Desktop/Unity/mathgoroku_public/Library/Artifacts/a6/a6c77bea1ba218c96511f26f21fda3f3
+    projectPath: Library/Artifacts/a6/a6c77bea1ba218c96511f26f21fda3f3
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library/Artifacts/a7/a7f68e89593217c37551f6e3834a7625
+    fullPath: /Users/chourensei/Desktop/Unity/mathgoroku_public/Library/Artifacts/a7/a7f68e89593217c37551f6e3834a7625
+    projectPath: Library/Artifacts/a7/a7f68e89593217c37551f6e3834a7625
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library/Artifacts/a8/a81a2e872c5e2be3d38d19c3a050c3bd
+    fullPath: /Users/chourensei/Desktop/Unity/mathgoroku_public/Library/Artifacts/a8/a81a2e872c5e2be3d38d19c3a050c3bd
+    projectPath: Library/Artifacts/a8/a81a2e872c5e2be3d38d19c3a050c3bd
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library/Artifacts/a8/a85796c67e08c8228f96a7d6683f0693
+    fullPath: /Users/chourensei/Desktop/Unity/mathgoroku_public/Library/Artifacts/a8/a85796c67e08c8228f96a7d6683f0693
+    projectPath: Library/Artifacts/a8/a85796c67e08c8228f96a7d6683f0693
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library/Artifacts/ad/ad775469e367c7e66999b0dc70ad75d9
+    fullPath: /Users/chourensei/Desktop/Unity/mathgoroku_public/Library/Artifacts/ad/ad775469e367c7e66999b0dc70ad75d9
+    projectPath: Library/Artifacts/ad/ad775469e367c7e66999b0dc70ad75d9
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library/Artifacts/ae/aed9e0a253a7c15d07e32804444f8713
+    fullPath: /Users/chourensei/Desktop/Unity/mathgoroku_public/Library/Artifacts/ae/aed9e0a253a7c15d07e32804444f8713
+    projectPath: Library/Artifacts/ae/aed9e0a253a7c15d07e32804444f8713
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library/Artifacts/b0/b055f0a9df1b313a0c3964cc11b7ccf4
+    fullPath: /Users/chourensei/Desktop/Unity/mathgoroku_public/Library/Artifacts/b0/b055f0a9df1b313a0c3964cc11b7ccf4
+    projectPath: Library/Artifacts/b0/b055f0a9df1b313a0c3964cc11b7ccf4
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library/Artifacts/b4/b456941f1a4577ffb304626b0900318c
+    fullPath: /Users/chourensei/Desktop/Unity/mathgoroku_public/Library/Artifacts/b4/b456941f1a4577ffb304626b0900318c
+    projectPath: Library/Artifacts/b4/b456941f1a4577ffb304626b0900318c
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library/Artifacts/b4/b45a6191f6dc8a1e55f390bb7d6f98b6
+    fullPath: /Users/chourensei/Desktop/Unity/mathgoroku_public/Library/Artifacts/b4/b45a6191f6dc8a1e55f390bb7d6f98b6
+    projectPath: Library/Artifacts/b4/b45a6191f6dc8a1e55f390bb7d6f98b6
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library/Artifacts/b9/b9aecf974e11d1883f6f295a1d4288b9
+    fullPath: /Users/chourensei/Desktop/Unity/mathgoroku_public/Library/Artifacts/b9/b9aecf974e11d1883f6f295a1d4288b9
+    projectPath: Library/Artifacts/b9/b9aecf974e11d1883f6f295a1d4288b9
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library/Artifacts/b9/b9e7547b802bbf4fa9c82ffef818bb58
+    fullPath: /Users/chourensei/Desktop/Unity/mathgoroku_public/Library/Artifacts/b9/b9e7547b802bbf4fa9c82ffef818bb58
+    projectPath: Library/Artifacts/b9/b9e7547b802bbf4fa9c82ffef818bb58
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library/Artifacts/bc/bc5be12c178e76e823c12b9e42bd6cad
+    fullPath: /Users/chourensei/Desktop/Unity/mathgoroku_public/Library/Artifacts/bc/bc5be12c178e76e823c12b9e42bd6cad
+    projectPath: Library/Artifacts/bc/bc5be12c178e76e823c12b9e42bd6cad
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library/Artifacts/bd/bd7c615ef7b663696cc185e1d7ac1bd3
+    fullPath: /Users/chourensei/Desktop/Unity/mathgoroku_public/Library/Artifacts/bd/bd7c615ef7b663696cc185e1d7ac1bd3
+    projectPath: Library/Artifacts/bd/bd7c615ef7b663696cc185e1d7ac1bd3
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library/Artifacts/bd/bdc33add4d24cc7159ff9cbcc2ff2722
+    fullPath: /Users/chourensei/Desktop/Unity/mathgoroku_public/Library/Artifacts/bd/bdc33add4d24cc7159ff9cbcc2ff2722
+    projectPath: Library/Artifacts/bd/bdc33add4d24cc7159ff9cbcc2ff2722
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library/Artifacts/be/beba1097f295fb551c50d5deaee6c5f9
+    fullPath: /Users/chourensei/Desktop/Unity/mathgoroku_public/Library/Artifacts/be/beba1097f295fb551c50d5deaee6c5f9
+    projectPath: Library/Artifacts/be/beba1097f295fb551c50d5deaee6c5f9
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library/Artifacts/be/bec6877fb8b5ea26624ea74771063c02
+    fullPath: /Users/chourensei/Desktop/Unity/mathgoroku_public/Library/Artifacts/be/bec6877fb8b5ea26624ea74771063c02
+    projectPath: Library/Artifacts/be/bec6877fb8b5ea26624ea74771063c02
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library/Artifacts/c0/c0e65cf760ad3e647916817f92969ff5
+    fullPath: /Users/chourensei/Desktop/Unity/mathgoroku_public/Library/Artifacts/c0/c0e65cf760ad3e647916817f92969ff5
+    projectPath: Library/Artifacts/c0/c0e65cf760ad3e647916817f92969ff5
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library/Artifacts/c1/c1199e44c026fe33fd3baeae9a1f5bea
+    fullPath: /Users/chourensei/Desktop/Unity/mathgoroku_public/Library/Artifacts/c1/c1199e44c026fe33fd3baeae9a1f5bea
+    projectPath: Library/Artifacts/c1/c1199e44c026fe33fd3baeae9a1f5bea
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library/Artifacts/c1/c19c1e5f403bafce26a2069b661f4de4
+    fullPath: /Users/chourensei/Desktop/Unity/mathgoroku_public/Library/Artifacts/c1/c19c1e5f403bafce26a2069b661f4de4
+    projectPath: Library/Artifacts/c1/c19c1e5f403bafce26a2069b661f4de4
     originalPath: 
     indexStatus: 0
     workTreeStatus: 5
-  - path: Library/Artifacts/9a/9aecfbfc76bdac70582c6f183c93e0c5
-    fullPath: /Users/chourensei/Desktop/Unity/mathgoroku_public/Library/Artifacts/9a/9aecfbfc76bdac70582c6f183c93e0c5
-    projectPath: Library/Artifacts/9a/9aecfbfc76bdac70582c6f183c93e0c5
+  - path: Library/Artifacts/c1/c1f6cc1333f6d0c8c6c43b3db5468dbb
+    fullPath: /Users/chourensei/Desktop/Unity/mathgoroku_public/Library/Artifacts/c1/c1f6cc1333f6d0c8c6c43b3db5468dbb
+    projectPath: Library/Artifacts/c1/c1f6cc1333f6d0c8c6c43b3db5468dbb
     originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library/Artifacts/9e/9e0b5b9666c37936a397647b61b02648
-    fullPath: /Users/chourensei/Desktop/Unity/mathgoroku_public/Library/Artifacts/9e/9e0b5b9666c37936a397647b61b02648
-    projectPath: Library/Artifacts/9e/9e0b5b9666c37936a397647b61b02648
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library/Artifacts/c2/c2f910ece00f32c5e5a37685cf02521a
+    fullPath: /Users/chourensei/Desktop/Unity/mathgoroku_public/Library/Artifacts/c2/c2f910ece00f32c5e5a37685cf02521a
+    projectPath: Library/Artifacts/c2/c2f910ece00f32c5e5a37685cf02521a
     originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library/Artifacts/a2/a26c8ec2dd82468849e7dcd0ea2a9e17
-    fullPath: /Users/chourensei/Desktop/Unity/mathgoroku_public/Library/Artifacts/a2/a26c8ec2dd82468849e7dcd0ea2a9e17
-    projectPath: Library/Artifacts/a2/a26c8ec2dd82468849e7dcd0ea2a9e17
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library/Artifacts/c3/c39a455f821ff8e02fba90077a71b3ef
+    fullPath: /Users/chourensei/Desktop/Unity/mathgoroku_public/Library/Artifacts/c3/c39a455f821ff8e02fba90077a71b3ef
+    projectPath: Library/Artifacts/c3/c39a455f821ff8e02fba90077a71b3ef
     originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library/Artifacts/a2/a2b2e11e5b3006c0d1188211defa7287
-    fullPath: /Users/chourensei/Desktop/Unity/mathgoroku_public/Library/Artifacts/a2/a2b2e11e5b3006c0d1188211defa7287
-    projectPath: Library/Artifacts/a2/a2b2e11e5b3006c0d1188211defa7287
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library/Artifacts/c6/c6b3c62c3c0cc6dd85891bf2143545b0
+    fullPath: /Users/chourensei/Desktop/Unity/mathgoroku_public/Library/Artifacts/c6/c6b3c62c3c0cc6dd85891bf2143545b0
+    projectPath: Library/Artifacts/c6/c6b3c62c3c0cc6dd85891bf2143545b0
     originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library/Artifacts/a4/a4809334df64fa12ab289e4667c338b9
-    fullPath: /Users/chourensei/Desktop/Unity/mathgoroku_public/Library/Artifacts/a4/a4809334df64fa12ab289e4667c338b9
-    projectPath: Library/Artifacts/a4/a4809334df64fa12ab289e4667c338b9
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library/Artifacts/c7/c73c1ded44978a186b1e55b59e7ce5e9
+    fullPath: /Users/chourensei/Desktop/Unity/mathgoroku_public/Library/Artifacts/c7/c73c1ded44978a186b1e55b59e7ce5e9
+    projectPath: Library/Artifacts/c7/c73c1ded44978a186b1e55b59e7ce5e9
     originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library/Artifacts/a9/a9244be41db178089c01428e4a24992a
-    fullPath: /Users/chourensei/Desktop/Unity/mathgoroku_public/Library/Artifacts/a9/a9244be41db178089c01428e4a24992a
-    projectPath: Library/Artifacts/a9/a9244be41db178089c01428e4a24992a
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library/Artifacts/c8/c8262e087aed62bba194cb2d30a9546d
+    fullPath: /Users/chourensei/Desktop/Unity/mathgoroku_public/Library/Artifacts/c8/c8262e087aed62bba194cb2d30a9546d
+    projectPath: Library/Artifacts/c8/c8262e087aed62bba194cb2d30a9546d
     originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library/Artifacts/a9/a979b2efde52f86cf3bb6a30a7e1d84f
-    fullPath: /Users/chourensei/Desktop/Unity/mathgoroku_public/Library/Artifacts/a9/a979b2efde52f86cf3bb6a30a7e1d84f
-    projectPath: Library/Artifacts/a9/a979b2efde52f86cf3bb6a30a7e1d84f
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library/Artifacts/c8/c8841afe7fea1b3493e5384aed619dcd
+    fullPath: /Users/chourensei/Desktop/Unity/mathgoroku_public/Library/Artifacts/c8/c8841afe7fea1b3493e5384aed619dcd
+    projectPath: Library/Artifacts/c8/c8841afe7fea1b3493e5384aed619dcd
     originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library/Artifacts/aa/aa189380542225d7bccf60965a7d513b
-    fullPath: /Users/chourensei/Desktop/Unity/mathgoroku_public/Library/Artifacts/aa/aa189380542225d7bccf60965a7d513b
-    projectPath: Library/Artifacts/aa/aa189380542225d7bccf60965a7d513b
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library/Artifacts/aa/aab186732fe9e9c0c5765e8a780015c9
-    fullPath: /Users/chourensei/Desktop/Unity/mathgoroku_public/Library/Artifacts/aa/aab186732fe9e9c0c5765e8a780015c9
-    projectPath: Library/Artifacts/aa/aab186732fe9e9c0c5765e8a780015c9
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library/Artifacts/ab/ab028a78b21a51e3da6bfadb73b36f81
-    fullPath: /Users/chourensei/Desktop/Unity/mathgoroku_public/Library/Artifacts/ab/ab028a78b21a51e3da6bfadb73b36f81
-    projectPath: Library/Artifacts/ab/ab028a78b21a51e3da6bfadb73b36f81
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library/Artifacts/ab/ab74be31543ba351078074946f483d1e
-    fullPath: /Users/chourensei/Desktop/Unity/mathgoroku_public/Library/Artifacts/ab/ab74be31543ba351078074946f483d1e
-    projectPath: Library/Artifacts/ab/ab74be31543ba351078074946f483d1e
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library/Artifacts/ab/abd8b1ab19a54612923d3f33ee7dad25
-    fullPath: /Users/chourensei/Desktop/Unity/mathgoroku_public/Library/Artifacts/ab/abd8b1ab19a54612923d3f33ee7dad25
-    projectPath: Library/Artifacts/ab/abd8b1ab19a54612923d3f33ee7dad25
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library/Artifacts/af/afafdde3e29dc1d913e5416e18f3d8b6
-    fullPath: /Users/chourensei/Desktop/Unity/mathgoroku_public/Library/Artifacts/af/afafdde3e29dc1d913e5416e18f3d8b6
-    projectPath: Library/Artifacts/af/afafdde3e29dc1d913e5416e18f3d8b6
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library/Artifacts/b4/b444f566353142a7ed2beff7768a4de3
-    fullPath: /Users/chourensei/Desktop/Unity/mathgoroku_public/Library/Artifacts/b4/b444f566353142a7ed2beff7768a4de3
-    projectPath: Library/Artifacts/b4/b444f566353142a7ed2beff7768a4de3
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library/Artifacts/bb/bb1187078f42dcef683662e63a9d069f
-    fullPath: /Users/chourensei/Desktop/Unity/mathgoroku_public/Library/Artifacts/bb/bb1187078f42dcef683662e63a9d069f
-    projectPath: Library/Artifacts/bb/bb1187078f42dcef683662e63a9d069f
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library/Artifacts/bb/bba7d0927d57ff931213b594201cbad3
-    fullPath: /Users/chourensei/Desktop/Unity/mathgoroku_public/Library/Artifacts/bb/bba7d0927d57ff931213b594201cbad3
-    projectPath: Library/Artifacts/bb/bba7d0927d57ff931213b594201cbad3
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library/Artifacts/bd/bd14fe141e103fbe8bf98fc45c44ed14
-    fullPath: /Users/chourensei/Desktop/Unity/mathgoroku_public/Library/Artifacts/bd/bd14fe141e103fbe8bf98fc45c44ed14
-    projectPath: Library/Artifacts/bd/bd14fe141e103fbe8bf98fc45c44ed14
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library/Artifacts/be/befa9b75dda2403a7bde9fed25153c8f
-    fullPath: /Users/chourensei/Desktop/Unity/mathgoroku_public/Library/Artifacts/be/befa9b75dda2403a7bde9fed25153c8f
-    projectPath: Library/Artifacts/be/befa9b75dda2403a7bde9fed25153c8f
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library/Artifacts/c3/c3180a3b4594542aebb23dc2a6523a06
-    fullPath: /Users/chourensei/Desktop/Unity/mathgoroku_public/Library/Artifacts/c3/c3180a3b4594542aebb23dc2a6523a06
-    projectPath: Library/Artifacts/c3/c3180a3b4594542aebb23dc2a6523a06
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library/Artifacts/c4/c4056929f4ab7bf65660da5ab062969e
-    fullPath: /Users/chourensei/Desktop/Unity/mathgoroku_public/Library/Artifacts/c4/c4056929f4ab7bf65660da5ab062969e
-    projectPath: Library/Artifacts/c4/c4056929f4ab7bf65660da5ab062969e
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library/Artifacts/c6/c613056542934dbdb63e1653907445f7
-    fullPath: /Users/chourensei/Desktop/Unity/mathgoroku_public/Library/Artifacts/c6/c613056542934dbdb63e1653907445f7
-    projectPath: Library/Artifacts/c6/c613056542934dbdb63e1653907445f7
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library/Artifacts/c6/c641df8d33fb2858fbb862f31c5b2ca2
-    fullPath: /Users/chourensei/Desktop/Unity/mathgoroku_public/Library/Artifacts/c6/c641df8d33fb2858fbb862f31c5b2ca2
-    projectPath: Library/Artifacts/c6/c641df8d33fb2858fbb862f31c5b2ca2
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library/Artifacts/c7/c794b0d1502ce8447278c340cb06114e
-    fullPath: /Users/chourensei/Desktop/Unity/mathgoroku_public/Library/Artifacts/c7/c794b0d1502ce8447278c340cb06114e
-    projectPath: Library/Artifacts/c7/c794b0d1502ce8447278c340cb06114e
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library/Artifacts/c8/c82c9507490222ce75cb7bb4677dc18f
-    fullPath: /Users/chourensei/Desktop/Unity/mathgoroku_public/Library/Artifacts/c8/c82c9507490222ce75cb7bb4677dc18f
-    projectPath: Library/Artifacts/c8/c82c9507490222ce75cb7bb4677dc18f
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
+    indexStatus: 1
+    workTreeStatus: 1
   - path: Library/Artifacts/ca/ca43b17e610bac62f7b3bf4e6e6228c5
     fullPath: /Users/chourensei/Desktop/Unity/mathgoroku_public/Library/Artifacts/ca/ca43b17e610bac62f7b3bf4e6e6228c5
     projectPath: Library/Artifacts/ca/ca43b17e610bac62f7b3bf4e6e6228c5
     originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library/Artifacts/ca/cabcc5bf496af6f9bc3ad5c0a01a2a79
+    fullPath: /Users/chourensei/Desktop/Unity/mathgoroku_public/Library/Artifacts/ca/cabcc5bf496af6f9bc3ad5c0a01a2a79
+    projectPath: Library/Artifacts/ca/cabcc5bf496af6f9bc3ad5c0a01a2a79
+    originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Library/Artifacts/cb/cb8b92ff38229aa257afadb7a2713bf5
-    fullPath: /Users/chourensei/Desktop/Unity/mathgoroku_public/Library/Artifacts/cb/cb8b92ff38229aa257afadb7a2713bf5
-    projectPath: Library/Artifacts/cb/cb8b92ff38229aa257afadb7a2713bf5
+  - path: Library/Artifacts/ce/ce67269f6562951dff5fccc0aa972fee
+    fullPath: /Users/chourensei/Desktop/Unity/mathgoroku_public/Library/Artifacts/ce/ce67269f6562951dff5fccc0aa972fee
+    projectPath: Library/Artifacts/ce/ce67269f6562951dff5fccc0aa972fee
     originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library/Artifacts/cb/cbf7408d3b394859e14ff5c9bdda9d12
-    fullPath: /Users/chourensei/Desktop/Unity/mathgoroku_public/Library/Artifacts/cb/cbf7408d3b394859e14ff5c9bdda9d12
-    projectPath: Library/Artifacts/cb/cbf7408d3b394859e14ff5c9bdda9d12
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library/Artifacts/d0/d0399db7478e3f498237ab25ce4478a4
+    fullPath: /Users/chourensei/Desktop/Unity/mathgoroku_public/Library/Artifacts/d0/d0399db7478e3f498237ab25ce4478a4
+    projectPath: Library/Artifacts/d0/d0399db7478e3f498237ab25ce4478a4
     originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library/Artifacts/d0/d0be628d41ef2c4d360d4654c6fce992
-    fullPath: /Users/chourensei/Desktop/Unity/mathgoroku_public/Library/Artifacts/d0/d0be628d41ef2c4d360d4654c6fce992
-    projectPath: Library/Artifacts/d0/d0be628d41ef2c4d360d4654c6fce992
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library/Artifacts/d1/d1dd1fffaf1b14457797d3fd991268b5
+    fullPath: /Users/chourensei/Desktop/Unity/mathgoroku_public/Library/Artifacts/d1/d1dd1fffaf1b14457797d3fd991268b5
+    projectPath: Library/Artifacts/d1/d1dd1fffaf1b14457797d3fd991268b5
     originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library/Artifacts/d1/d1ff6be7c028b6656fcb0330b5226429
-    fullPath: /Users/chourensei/Desktop/Unity/mathgoroku_public/Library/Artifacts/d1/d1ff6be7c028b6656fcb0330b5226429
-    projectPath: Library/Artifacts/d1/d1ff6be7c028b6656fcb0330b5226429
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library/Artifacts/d2/d263c188f2f9b049d0eddfbfade9dfc6
+    fullPath: /Users/chourensei/Desktop/Unity/mathgoroku_public/Library/Artifacts/d2/d263c188f2f9b049d0eddfbfade9dfc6
+    projectPath: Library/Artifacts/d2/d263c188f2f9b049d0eddfbfade9dfc6
     originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library/Artifacts/d2/d2d1f12ad07f6b250fbd8384522e1ec6
-    fullPath: /Users/chourensei/Desktop/Unity/mathgoroku_public/Library/Artifacts/d2/d2d1f12ad07f6b250fbd8384522e1ec6
-    projectPath: Library/Artifacts/d2/d2d1f12ad07f6b250fbd8384522e1ec6
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library/Artifacts/d4/d4c8996d91a11a8cad9a0989368753cd
+    fullPath: /Users/chourensei/Desktop/Unity/mathgoroku_public/Library/Artifacts/d4/d4c8996d91a11a8cad9a0989368753cd
+    projectPath: Library/Artifacts/d4/d4c8996d91a11a8cad9a0989368753cd
     originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library/Artifacts/d3/d3d901caa89261ab6fd23bec5ba78621
-    fullPath: /Users/chourensei/Desktop/Unity/mathgoroku_public/Library/Artifacts/d3/d3d901caa89261ab6fd23bec5ba78621
-    projectPath: Library/Artifacts/d3/d3d901caa89261ab6fd23bec5ba78621
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library/Artifacts/d5/d5b1a88ddf5c7fd6ec5682afeb62bdb6
+    fullPath: /Users/chourensei/Desktop/Unity/mathgoroku_public/Library/Artifacts/d5/d5b1a88ddf5c7fd6ec5682afeb62bdb6
+    projectPath: Library/Artifacts/d5/d5b1a88ddf5c7fd6ec5682afeb62bdb6
     originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library/Artifacts/d5/d543beeee89fe6015598fe62d135cf13
-    fullPath: /Users/chourensei/Desktop/Unity/mathgoroku_public/Library/Artifacts/d5/d543beeee89fe6015598fe62d135cf13
-    projectPath: Library/Artifacts/d5/d543beeee89fe6015598fe62d135cf13
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library/Artifacts/d5/d5c983cecd26638ba834f28f6ba640b2
+    fullPath: /Users/chourensei/Desktop/Unity/mathgoroku_public/Library/Artifacts/d5/d5c983cecd26638ba834f28f6ba640b2
+    projectPath: Library/Artifacts/d5/d5c983cecd26638ba834f28f6ba640b2
     originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
+    indexStatus: 1
+    workTreeStatus: 1
   - path: Library/Artifacts/d9/d9529fc16729c2e1d585c73635dda951
     fullPath: /Users/chourensei/Desktop/Unity/mathgoroku_public/Library/Artifacts/d9/d9529fc16729c2e1d585c73635dda951
     projectPath: Library/Artifacts/d9/d9529fc16729c2e1d585c73635dda951
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library/Artifacts/df/df19cbb655e4ae3ab00509ed11e017ec
-    fullPath: /Users/chourensei/Desktop/Unity/mathgoroku_public/Library/Artifacts/df/df19cbb655e4ae3ab00509ed11e017ec
-    projectPath: Library/Artifacts/df/df19cbb655e4ae3ab00509ed11e017ec
-    originalPath: 
     indexStatus: 0
     workTreeStatus: 5
+  - path: Library/Artifacts/d9/d98c04b0c2c095b47dfce60f640d7bea
+    fullPath: /Users/chourensei/Desktop/Unity/mathgoroku_public/Library/Artifacts/d9/d98c04b0c2c095b47dfce60f640d7bea
+    projectPath: Library/Artifacts/d9/d98c04b0c2c095b47dfce60f640d7bea
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library/Artifacts/da/da179f0db20c11d39a42f342e8ed4a32
+    fullPath: /Users/chourensei/Desktop/Unity/mathgoroku_public/Library/Artifacts/da/da179f0db20c11d39a42f342e8ed4a32
+    projectPath: Library/Artifacts/da/da179f0db20c11d39a42f342e8ed4a32
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library/Artifacts/da/dae26b3e19cde9c42effe17bfa5f9671
+    fullPath: /Users/chourensei/Desktop/Unity/mathgoroku_public/Library/Artifacts/da/dae26b3e19cde9c42effe17bfa5f9671
+    projectPath: Library/Artifacts/da/dae26b3e19cde9c42effe17bfa5f9671
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library/Artifacts/db/db5b387d21ca65fe9e30bd7ff2d4a489
+    fullPath: /Users/chourensei/Desktop/Unity/mathgoroku_public/Library/Artifacts/db/db5b387d21ca65fe9e30bd7ff2d4a489
+    projectPath: Library/Artifacts/db/db5b387d21ca65fe9e30bd7ff2d4a489
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library/Artifacts/db/db9db2561daac2789392c173c6fb1d16
+    fullPath: /Users/chourensei/Desktop/Unity/mathgoroku_public/Library/Artifacts/db/db9db2561daac2789392c173c6fb1d16
+    projectPath: Library/Artifacts/db/db9db2561daac2789392c173c6fb1d16
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library/Artifacts/dc/dcbafde47ebadc58881ab44785062f41
+    fullPath: /Users/chourensei/Desktop/Unity/mathgoroku_public/Library/Artifacts/dc/dcbafde47ebadc58881ab44785062f41
+    projectPath: Library/Artifacts/dc/dcbafde47ebadc58881ab44785062f41
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
   - path: Library/Artifacts/df/df8e3b72faa22aae79564c986438040a
     fullPath: /Users/chourensei/Desktop/Unity/mathgoroku_public/Library/Artifacts/df/df8e3b72faa22aae79564c986438040a
     projectPath: Library/Artifacts/df/df8e3b72faa22aae79564c986438040a
     originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library/Artifacts/e1/e16f97e20410fb1696d1ecb8b7b66fee
+    fullPath: /Users/chourensei/Desktop/Unity/mathgoroku_public/Library/Artifacts/e1/e16f97e20410fb1696d1ecb8b7b66fee
+    projectPath: Library/Artifacts/e1/e16f97e20410fb1696d1ecb8b7b66fee
+    originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Library/Artifacts/df/dfd1bfeec1829b05b1a16f948029661f
-    fullPath: /Users/chourensei/Desktop/Unity/mathgoroku_public/Library/Artifacts/df/dfd1bfeec1829b05b1a16f948029661f
-    projectPath: Library/Artifacts/df/dfd1bfeec1829b05b1a16f948029661f
+  - path: Library/Artifacts/e1/e1b864ad61c2da80d5c59aa493133ea6
+    fullPath: /Users/chourensei/Desktop/Unity/mathgoroku_public/Library/Artifacts/e1/e1b864ad61c2da80d5c59aa493133ea6
+    projectPath: Library/Artifacts/e1/e1b864ad61c2da80d5c59aa493133ea6
     originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library/Artifacts/e1/e1b5da4772ee8184f70023a10144c7e8
-    fullPath: /Users/chourensei/Desktop/Unity/mathgoroku_public/Library/Artifacts/e1/e1b5da4772ee8184f70023a10144c7e8
-    projectPath: Library/Artifacts/e1/e1b5da4772ee8184f70023a10144c7e8
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library/Artifacts/e2/e2eec2487be40b38984349fc58a9eb9f
+    fullPath: /Users/chourensei/Desktop/Unity/mathgoroku_public/Library/Artifacts/e2/e2eec2487be40b38984349fc58a9eb9f
+    projectPath: Library/Artifacts/e2/e2eec2487be40b38984349fc58a9eb9f
     originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library/Artifacts/e2/e24c19298e5af5e2580a565ad4b6aec7
-    fullPath: /Users/chourensei/Desktop/Unity/mathgoroku_public/Library/Artifacts/e2/e24c19298e5af5e2580a565ad4b6aec7
-    projectPath: Library/Artifacts/e2/e24c19298e5af5e2580a565ad4b6aec7
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library/Artifacts/e3/e37539442c545273d4380672415e0911
+    fullPath: /Users/chourensei/Desktop/Unity/mathgoroku_public/Library/Artifacts/e3/e37539442c545273d4380672415e0911
+    projectPath: Library/Artifacts/e3/e37539442c545273d4380672415e0911
     originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library/Artifacts/e2/e2ac8831ae6310a2e2ed2413fa6eb070
-    fullPath: /Users/chourensei/Desktop/Unity/mathgoroku_public/Library/Artifacts/e2/e2ac8831ae6310a2e2ed2413fa6eb070
-    projectPath: Library/Artifacts/e2/e2ac8831ae6310a2e2ed2413fa6eb070
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library/Artifacts/e4/e431637cb96ba3aae3c9434b27c7c402
+    fullPath: /Users/chourensei/Desktop/Unity/mathgoroku_public/Library/Artifacts/e4/e431637cb96ba3aae3c9434b27c7c402
+    projectPath: Library/Artifacts/e4/e431637cb96ba3aae3c9434b27c7c402
     originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library/Artifacts/e3/e37c92dcf57e0d784c4b988319170684
-    fullPath: /Users/chourensei/Desktop/Unity/mathgoroku_public/Library/Artifacts/e3/e37c92dcf57e0d784c4b988319170684
-    projectPath: Library/Artifacts/e3/e37c92dcf57e0d784c4b988319170684
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library/Artifacts/e6/e6151c38c40c74509238bb16513e0c0e
+    fullPath: /Users/chourensei/Desktop/Unity/mathgoroku_public/Library/Artifacts/e6/e6151c38c40c74509238bb16513e0c0e
+    projectPath: Library/Artifacts/e6/e6151c38c40c74509238bb16513e0c0e
     originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library/Artifacts/e4/e40f22376c49f55d58fc6e18ff5494e7
-    fullPath: /Users/chourensei/Desktop/Unity/mathgoroku_public/Library/Artifacts/e4/e40f22376c49f55d58fc6e18ff5494e7
-    projectPath: Library/Artifacts/e4/e40f22376c49f55d58fc6e18ff5494e7
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library/Artifacts/e6/e61b9203b8766ebe8c256e7060a6c845
+    fullPath: /Users/chourensei/Desktop/Unity/mathgoroku_public/Library/Artifacts/e6/e61b9203b8766ebe8c256e7060a6c845
+    projectPath: Library/Artifacts/e6/e61b9203b8766ebe8c256e7060a6c845
     originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library/Artifacts/e5/e568fd7060324430dffb7cdb9931dff5
-    fullPath: /Users/chourensei/Desktop/Unity/mathgoroku_public/Library/Artifacts/e5/e568fd7060324430dffb7cdb9931dff5
-    projectPath: Library/Artifacts/e5/e568fd7060324430dffb7cdb9931dff5
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library/Artifacts/e6/e62e96e92113fc13abffc862119a84a4
+    fullPath: /Users/chourensei/Desktop/Unity/mathgoroku_public/Library/Artifacts/e6/e62e96e92113fc13abffc862119a84a4
+    projectPath: Library/Artifacts/e6/e62e96e92113fc13abffc862119a84a4
     originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library/Artifacts/e6/e60bd537673f1fade6d4623fac239982
-    fullPath: /Users/chourensei/Desktop/Unity/mathgoroku_public/Library/Artifacts/e6/e60bd537673f1fade6d4623fac239982
-    projectPath: Library/Artifacts/e6/e60bd537673f1fade6d4623fac239982
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library/Artifacts/e8/e85c190ee52e8eb396f0406d9cafc40e
+    fullPath: /Users/chourensei/Desktop/Unity/mathgoroku_public/Library/Artifacts/e8/e85c190ee52e8eb396f0406d9cafc40e
+    projectPath: Library/Artifacts/e8/e85c190ee52e8eb396f0406d9cafc40e
     originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library/Artifacts/e6/e6147af73547d7315af030a63cf5a226
-    fullPath: /Users/chourensei/Desktop/Unity/mathgoroku_public/Library/Artifacts/e6/e6147af73547d7315af030a63cf5a226
-    projectPath: Library/Artifacts/e6/e6147af73547d7315af030a63cf5a226
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library/Artifacts/e6/e6aec63253a6f0af89ceda1ca62a32cc
-    fullPath: /Users/chourensei/Desktop/Unity/mathgoroku_public/Library/Artifacts/e6/e6aec63253a6f0af89ceda1ca62a32cc
-    projectPath: Library/Artifacts/e6/e6aec63253a6f0af89ceda1ca62a32cc
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library/Artifacts/e7/e7db4e953c18d82e2ad88e0d368c6afe
-    fullPath: /Users/chourensei/Desktop/Unity/mathgoroku_public/Library/Artifacts/e7/e7db4e953c18d82e2ad88e0d368c6afe
-    projectPath: Library/Artifacts/e7/e7db4e953c18d82e2ad88e0d368c6afe
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library/Artifacts/e8/e82d2b3e7b5421c2a177f96b72c7af69
-    fullPath: /Users/chourensei/Desktop/Unity/mathgoroku_public/Library/Artifacts/e8/e82d2b3e7b5421c2a177f96b72c7af69
-    projectPath: Library/Artifacts/e8/e82d2b3e7b5421c2a177f96b72c7af69
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library/Artifacts/e8/e898b3c2ea752f485dacb713b633e4ae
-    fullPath: /Users/chourensei/Desktop/Unity/mathgoroku_public/Library/Artifacts/e8/e898b3c2ea752f485dacb713b633e4ae
-    projectPath: Library/Artifacts/e8/e898b3c2ea752f485dacb713b633e4ae
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
+    indexStatus: 1
+    workTreeStatus: 1
   - path: Library/Artifacts/ea/eac6b87291ee052642b8661d738d0bf4
     fullPath: /Users/chourensei/Desktop/Unity/mathgoroku_public/Library/Artifacts/ea/eac6b87291ee052642b8661d738d0bf4
     projectPath: Library/Artifacts/ea/eac6b87291ee052642b8661d738d0bf4
     originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library/Artifacts/ea/eaddf544c83cbe7c393071960b244d9f
+    fullPath: /Users/chourensei/Desktop/Unity/mathgoroku_public/Library/Artifacts/ea/eaddf544c83cbe7c393071960b244d9f
+    projectPath: Library/Artifacts/ea/eaddf544c83cbe7c393071960b244d9f
+    originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Library/Artifacts/eb/eb11c4ee5300dfba81b48b373106fc1e
-    fullPath: /Users/chourensei/Desktop/Unity/mathgoroku_public/Library/Artifacts/eb/eb11c4ee5300dfba81b48b373106fc1e
-    projectPath: Library/Artifacts/eb/eb11c4ee5300dfba81b48b373106fc1e
+  - path: Library/Artifacts/ea/eaecc95b8db3040b165908688a6202df
+    fullPath: /Users/chourensei/Desktop/Unity/mathgoroku_public/Library/Artifacts/ea/eaecc95b8db3040b165908688a6202df
+    projectPath: Library/Artifacts/ea/eaecc95b8db3040b165908688a6202df
     originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library/Artifacts/eb/eb520c72258921b6c01741add8ff4b4b
-    fullPath: /Users/chourensei/Desktop/Unity/mathgoroku_public/Library/Artifacts/eb/eb520c72258921b6c01741add8ff4b4b
-    projectPath: Library/Artifacts/eb/eb520c72258921b6c01741add8ff4b4b
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library/Artifacts/eb/eb1dfbf4d169060b3545ce430c467d67
+    fullPath: /Users/chourensei/Desktop/Unity/mathgoroku_public/Library/Artifacts/eb/eb1dfbf4d169060b3545ce430c467d67
+    projectPath: Library/Artifacts/eb/eb1dfbf4d169060b3545ce430c467d67
     originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library/Artifacts/f2/f2fd3679726718c009a32e1f507c82a8
-    fullPath: /Users/chourensei/Desktop/Unity/mathgoroku_public/Library/Artifacts/f2/f2fd3679726718c009a32e1f507c82a8
-    projectPath: Library/Artifacts/f2/f2fd3679726718c009a32e1f507c82a8
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library/Artifacts/ec/ec0880f9a78d94badce77e9da4351bb9
+    fullPath: /Users/chourensei/Desktop/Unity/mathgoroku_public/Library/Artifacts/ec/ec0880f9a78d94badce77e9da4351bb9
+    projectPath: Library/Artifacts/ec/ec0880f9a78d94badce77e9da4351bb9
     originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library/Artifacts/ee/ee92dc87df440a4f189cafae1f24bca3
+    fullPath: /Users/chourensei/Desktop/Unity/mathgoroku_public/Library/Artifacts/ee/ee92dc87df440a4f189cafae1f24bca3
+    projectPath: Library/Artifacts/ee/ee92dc87df440a4f189cafae1f24bca3
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library/Artifacts/ee/eeb69edd18742631c835c92ea82b8a97
+    fullPath: /Users/chourensei/Desktop/Unity/mathgoroku_public/Library/Artifacts/ee/eeb69edd18742631c835c92ea82b8a97
+    projectPath: Library/Artifacts/ee/eeb69edd18742631c835c92ea82b8a97
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library/Artifacts/ee/eec6749e9fb91156638196538004018e
+    fullPath: /Users/chourensei/Desktop/Unity/mathgoroku_public/Library/Artifacts/ee/eec6749e9fb91156638196538004018e
+    projectPath: Library/Artifacts/ee/eec6749e9fb91156638196538004018e
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library/Artifacts/ef/ef757d54fb46e3537afc7e1caacf349e
+    fullPath: /Users/chourensei/Desktop/Unity/mathgoroku_public/Library/Artifacts/ef/ef757d54fb46e3537afc7e1caacf349e
+    projectPath: Library/Artifacts/ef/ef757d54fb46e3537afc7e1caacf349e
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library/Artifacts/f0/f0c50df251133bd96a5bf52d3e3f79d7
+    fullPath: /Users/chourensei/Desktop/Unity/mathgoroku_public/Library/Artifacts/f0/f0c50df251133bd96a5bf52d3e3f79d7
+    projectPath: Library/Artifacts/f0/f0c50df251133bd96a5bf52d3e3f79d7
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library/Artifacts/f0/f0f3ed8d16776cf9a927bee55fe374d0
+    fullPath: /Users/chourensei/Desktop/Unity/mathgoroku_public/Library/Artifacts/f0/f0f3ed8d16776cf9a927bee55fe374d0
+    projectPath: Library/Artifacts/f0/f0f3ed8d16776cf9a927bee55fe374d0
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library/Artifacts/f1/f1e635ef3d64e53596a764f141d163b0
+    fullPath: /Users/chourensei/Desktop/Unity/mathgoroku_public/Library/Artifacts/f1/f1e635ef3d64e53596a764f141d163b0
+    projectPath: Library/Artifacts/f1/f1e635ef3d64e53596a764f141d163b0
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library/Artifacts/f3/f3becb30b3b61961a80689129cf863dd
+    fullPath: /Users/chourensei/Desktop/Unity/mathgoroku_public/Library/Artifacts/f3/f3becb30b3b61961a80689129cf863dd
+    projectPath: Library/Artifacts/f3/f3becb30b3b61961a80689129cf863dd
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
   - path: Library/Artifacts/f3/f3d82ecf9a84f5b746e042e1967ab763
     fullPath: /Users/chourensei/Desktop/Unity/mathgoroku_public/Library/Artifacts/f3/f3d82ecf9a84f5b746e042e1967ab763
     projectPath: Library/Artifacts/f3/f3d82ecf9a84f5b746e042e1967ab763
     originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library/Artifacts/f4/f46f1527b449a9a716b32bd91380b06d
+    fullPath: /Users/chourensei/Desktop/Unity/mathgoroku_public/Library/Artifacts/f4/f46f1527b449a9a716b32bd91380b06d
+    projectPath: Library/Artifacts/f4/f46f1527b449a9a716b32bd91380b06d
+    originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Library/Artifacts/f7/f770a46ba1907789b5ea98d938a4ff6c
-    fullPath: /Users/chourensei/Desktop/Unity/mathgoroku_public/Library/Artifacts/f7/f770a46ba1907789b5ea98d938a4ff6c
-    projectPath: Library/Artifacts/f7/f770a46ba1907789b5ea98d938a4ff6c
+  - path: Library/Artifacts/f6/f63996d42fe9ab16de3d9b8a096b86b4
+    fullPath: /Users/chourensei/Desktop/Unity/mathgoroku_public/Library/Artifacts/f6/f63996d42fe9ab16de3d9b8a096b86b4
+    projectPath: Library/Artifacts/f6/f63996d42fe9ab16de3d9b8a096b86b4
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library/Artifacts/f6/f67e018dbafce8274c9a8a2fafa3e907
+    fullPath: /Users/chourensei/Desktop/Unity/mathgoroku_public/Library/Artifacts/f6/f67e018dbafce8274c9a8a2fafa3e907
+    projectPath: Library/Artifacts/f6/f67e018dbafce8274c9a8a2fafa3e907
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library/Artifacts/f8/f85b356bffe97eb46ea2810472679bd5
+    fullPath: /Users/chourensei/Desktop/Unity/mathgoroku_public/Library/Artifacts/f8/f85b356bffe97eb46ea2810472679bd5
+    projectPath: Library/Artifacts/f8/f85b356bffe97eb46ea2810472679bd5
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library/Artifacts/f9/f98061c734339a4fe7d504b9677e78e0
+    fullPath: /Users/chourensei/Desktop/Unity/mathgoroku_public/Library/Artifacts/f9/f98061c734339a4fe7d504b9677e78e0
+    projectPath: Library/Artifacts/f9/f98061c734339a4fe7d504b9677e78e0
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library/Artifacts/f9/f9d41a278fe1712a7f00ede8713cd984
+    fullPath: /Users/chourensei/Desktop/Unity/mathgoroku_public/Library/Artifacts/f9/f9d41a278fe1712a7f00ede8713cd984
+    projectPath: Library/Artifacts/f9/f9d41a278fe1712a7f00ede8713cd984
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library/Artifacts/fe/fecff5014c761cb1b3c1b1fc79351ff7
+    fullPath: /Users/chourensei/Desktop/Unity/mathgoroku_public/Library/Artifacts/fe/fecff5014c761cb1b3c1b1fc79351ff7
+    projectPath: Library/Artifacts/fe/fecff5014c761cb1b3c1b1fc79351ff7
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library/Artifacts/ff/fff6e0f24f7e15bb8547d757b8191558
+    fullPath: /Users/chourensei/Desktop/Unity/mathgoroku_public/Library/Artifacts/ff/fff6e0f24f7e15bb8547d757b8191558
+    projectPath: Library/Artifacts/ff/fff6e0f24f7e15bb8547d757b8191558
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library/Bee/200b0aE.dag
+    fullPath: /Users/chourensei/Desktop/Unity/mathgoroku_public/Library/Bee/200b0aE.dag
+    projectPath: Library/Bee/200b0aE.dag
     originalPath: 
     indexStatus: 0
-    workTreeStatus: 5
-  - path: Library/Artifacts/f8/f8c852b56296f3b4ca23870cd97fa2d7
-    fullPath: /Users/chourensei/Desktop/Unity/mathgoroku_public/Library/Artifacts/f8/f8c852b56296f3b4ca23870cd97fa2d7
-    projectPath: Library/Artifacts/f8/f8c852b56296f3b4ca23870cd97fa2d7
+    workTreeStatus: 3
+  - path: Library/Bee/200b0aE.dag.json
+    fullPath: /Users/chourensei/Desktop/Unity/mathgoroku_public/Library/Bee/200b0aE.dag.json
+    projectPath: Library/Bee/200b0aE.dag.json
     originalPath: 
     indexStatus: 0
-    workTreeStatus: 5
-  - path: Library/Artifacts/f9/f924ac1d50d3d734b0e91d8eccdecc6a
-    fullPath: /Users/chourensei/Desktop/Unity/mathgoroku_public/Library/Artifacts/f9/f924ac1d50d3d734b0e91d8eccdecc6a
-    projectPath: Library/Artifacts/f9/f924ac1d50d3d734b0e91d8eccdecc6a
+    workTreeStatus: 3
+  - path: Library/Bee/200b0aE.dag_derived
+    fullPath: /Users/chourensei/Desktop/Unity/mathgoroku_public/Library/Bee/200b0aE.dag_derived
+    projectPath: Library/Bee/200b0aE.dag_derived
     originalPath: 
     indexStatus: 0
-    workTreeStatus: 5
-  - path: Library/Artifacts/fe/fe44ab82be3e8e9e82b5a156289a3096
-    fullPath: /Users/chourensei/Desktop/Unity/mathgoroku_public/Library/Artifacts/fe/fe44ab82be3e8e9e82b5a156289a3096
-    projectPath: Library/Artifacts/fe/fe44ab82be3e8e9e82b5a156289a3096
+    workTreeStatus: 3
+  - path: Library/Bee/200b0aE-inputdata.json
+    fullPath: /Users/chourensei/Desktop/Unity/mathgoroku_public/Library/Bee/200b0aE-inputdata.json
+    projectPath: Library/Bee/200b0aE-inputdata.json
     originalPath: 
     indexStatus: 0
-    workTreeStatus: 5
+    workTreeStatus: 3
   - path: Library/Bee/artifacts/200b0aE.dag/Assembly-CSharp.dll
     fullPath: /Users/chourensei/Desktop/Unity/mathgoroku_public/Library/Bee/artifacts/200b0aE.dag/Assembly-CSharp.dll
     projectPath: Library/Bee/artifacts/200b0aE.dag/Assembly-CSharp.dll
@@ -904,6 +1462,12 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
+  - path: Library/Bee/artifacts/200b0aE.dag/Assembly-CSharp.rsp
+    fullPath: /Users/chourensei/Desktop/Unity/mathgoroku_public/Library/Bee/artifacts/200b0aE.dag/Assembly-CSharp.rsp
+    projectPath: Library/Bee/artifacts/200b0aE.dag/Assembly-CSharp.rsp
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
   - path: Library/Bee/artifacts/200b0aE.dag/post-processed/Assembly-CSharp.dll
     fullPath: /Users/chourensei/Desktop/Unity/mathgoroku_public/Library/Bee/artifacts/200b0aE.dag/post-processed/Assembly-CSharp.dll
     projectPath: Library/Bee/artifacts/200b0aE.dag/post-processed/Assembly-CSharp.dll
@@ -913,6 +1477,18 @@ MonoBehaviour:
   - path: Library/Bee/backend_profiler0.traceevents
     fullPath: /Users/chourensei/Desktop/Unity/mathgoroku_public/Library/Bee/backend_profiler0.traceevents
     projectPath: Library/Bee/backend_profiler0.traceevents
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library/Bee/backend_profiler1.traceevents
+    fullPath: /Users/chourensei/Desktop/Unity/mathgoroku_public/Library/Bee/backend_profiler1.traceevents
+    projectPath: Library/Bee/backend_profiler1.traceevents
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library/Bee/buildprogram0.traceevents
+    fullPath: /Users/chourensei/Desktop/Unity/mathgoroku_public/Library/Bee/buildprogram0.traceevents
+    projectPath: Library/Bee/buildprogram0.traceevents
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
@@ -946,6 +1522,36 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
+  - path: Library/BurstCache/JIT/Hashes/Unity.2D.Animation.Editor.bhc
+    fullPath: /Users/chourensei/Desktop/Unity/mathgoroku_public/Library/BurstCache/JIT/Hashes/Unity.2D.Animation.Editor.bhc
+    projectPath: Library/BurstCache/JIT/Hashes/Unity.2D.Animation.Editor.bhc
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library/BurstCache/JIT/Hashes/Unity.2D.Common.Runtime.bhc
+    fullPath: /Users/chourensei/Desktop/Unity/mathgoroku_public/Library/BurstCache/JIT/Hashes/Unity.2D.Common.Runtime.bhc
+    projectPath: Library/BurstCache/JIT/Hashes/Unity.2D.Common.Runtime.bhc
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library/BurstCache/JIT/Hashes/Unity.2D.SpriteShape.Runtime.bhc
+    fullPath: /Users/chourensei/Desktop/Unity/mathgoroku_public/Library/BurstCache/JIT/Hashes/Unity.2D.SpriteShape.Runtime.bhc
+    projectPath: Library/BurstCache/JIT/Hashes/Unity.2D.SpriteShape.Runtime.bhc
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library/BurstCache/JIT/Hashes/Unity.Burst.bhc
+    fullPath: /Users/chourensei/Desktop/Unity/mathgoroku_public/Library/BurstCache/JIT/Hashes/Unity.Burst.bhc
+    projectPath: Library/BurstCache/JIT/Hashes/Unity.Burst.bhc
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library/BurstCache/JIT/Hashes/Unity.Mathematics.bhc
+    fullPath: /Users/chourensei/Desktop/Unity/mathgoroku_public/Library/BurstCache/JIT/Hashes/Unity.Mathematics.bhc
+    projectPath: Library/BurstCache/JIT/Hashes/Unity.Mathematics.bhc
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
   - path: Library/EditorInstance.json
     fullPath: /Users/chourensei/Desktop/Unity/mathgoroku_public/Library/EditorInstance.json
     projectPath: Library/EditorInstance.json
@@ -973,6 +1579,18 @@ MonoBehaviour:
   - path: Library/gfu/cache/repoinfo.yaml
     fullPath: /Users/chourensei/Desktop/Unity/mathgoroku_public/Library/gfu/cache/repoinfo.yaml
     projectPath: Library/gfu/cache/repoinfo.yaml
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library/GridBrush/UnityEditor.Tilemaps.GridBrush.asset
+    fullPath: /Users/chourensei/Desktop/Unity/mathgoroku_public/Library/GridBrush/UnityEditor.Tilemaps.GridBrush.asset
+    projectPath: Library/GridBrush/UnityEditor.Tilemaps.GridBrush.asset
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library/InspectorExpandedItems.asset
+    fullPath: /Users/chourensei/Desktop/Unity/mathgoroku_public/Library/InspectorExpandedItems.asset
+    projectPath: Library/InspectorExpandedItems.asset
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
@@ -1012,12 +1630,12 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: mono_crash.6eb8f65a5.1.json
-    fullPath: /Users/chourensei/Desktop/Unity/mathgoroku_public/mono_crash.6eb8f65a5.1.json
-    projectPath: mono_crash.6eb8f65a5.1.json
+  - path: Library/StateCache/SceneView/8c/8cd7c613bf844de3b80696e27a479d5e.json
+    fullPath: /Users/chourensei/Desktop/Unity/mathgoroku_public/Library/StateCache/SceneView/8c/8cd7c613bf844de3b80696e27a479d5e.json
+    projectPath: Library/StateCache/SceneView/8c/8cd7c613bf844de3b80696e27a479d5e.json
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 3
   - path: UserSettings/Layouts/default-2021.dwlt
     fullPath: /Users/chourensei/Desktop/Unity/mathgoroku_public/UserSettings/Layouts/default-2021.dwlt
     projectPath: UserSettings/Layouts/default-2021.dwlt

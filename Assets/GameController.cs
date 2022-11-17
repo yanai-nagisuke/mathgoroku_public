@@ -11,6 +11,8 @@ using UnityEngine.SceneManagement;
 public class GameController : MonoBehaviour
 {   
     public Tilemap tilemap;//地図のタイルマップを取得。地図のタイルマップとワールド座標は異なるためGetCellCentorWordlでタイルマップの中心の位置に変換する必要がある。
+
+
     GameObject player1;
     GameObject player2;
     GameObject player3;
@@ -25,34 +27,36 @@ public class GameController : MonoBehaviour
     static List<Vector3> player_destination = new List<Vector3>();
 
     System.Random saikoro = new System.Random();
-    float speed = 0.5f;
-    public TextMeshProUGUI pointer_button_text;
 
-    int pointer = 0;
+   
 
     static bool syokika = true;
+    
     void Start(){
         player1 = GameObject.Find("fox");
         player2 = GameObject.Find("fox_red");
         player3 = GameObject.Find("fox_yellow");
-        players.Add(player1);//プレイヤーのゲームオブジェクトを配列として保持している。
-        players.Add(player2);//ゲームオブジェクトは毎回作成し、目的地と現在地だけ記録しておく
-        players.Add(player3);
+        players = new List<GameObject>() {player1, player2, player3};//プレイヤーのゲームオブジェクトを配列として保持している。プレイヤーのゲームオブジェクトを配列として保持している。
+        var bound = tilemap.cellBounds;
         if (syokika){
-            players_position = new int[,]{{-8,-3}, {-8,-3}, {-8,-3}};//それぞれのプレイヤーのいるマス目の座標。
-            player_destination.Add(tilemap.GetCellCenterWorld(new Vector3Int(-8, -3, 0)));
-            player_destination.Add(tilemap.GetCellCenterWorld(new Vector3Int(-8, -3, 0)));
-            player_destination.Add(tilemap.GetCellCenterWorld(new Vector3Int(-8, -3, 0)));
-            used = new int[3, 16, 8];//プレイヤー数、縦、横
-            used[0, 0, 1] = 1;//xを+8, yを+4した値にする
-            used[1, 0, 1] = 1;//幅優先探索ように訪れた頂点を初期化している
-            used[2, 0, 1] = 1;
+            int sx = -5;//スタート地点の座標。
+            int sy = -1;
+            players_position = new int[,]{{sx,sy}, {sx,sy}, {sx,sy}};//それぞれのプレイヤーのいるマス目の座標。
+            player_destination = new List<Vector3>() {tilemap.GetCellCenterWorld(new Vector3Int(sx, sy, 0)), tilemap.GetCellCenterWorld(new Vector3Int(sx, sy, 0)), tilemap.GetCellCenterWorld(new Vector3Int(sx, sy, 0))};
+            
+            used = new int[3, bound.max.x-bound.min.x, bound.max.y-bound.min.y];//プレイヤー数、縦、横
+            used[0, sx-bound.min.x, sy-bound.min.y] = 1;//xを+8, yを+4した値にする
+            used[1, sx-bound.min.x, sy-bound.min.y] = 1;//幅優先探索ように訪れた頂点を初期化している
+            used[2, sx-bound.min.x, sy-bound.min.y] = 1;
             syokika = false;
         }else{
-            player1.transform.position = player_destination[0];//プレイヤーをワープさせる。
-            player2.transform.position = player_destination[1];
-            player3.transform.position = player_destination[2];
+            Vector3 delta = new Vector3(0,0.5f,0);
+            player1.transform.position = delta + player_destination[0];//プレイヤーをワープさせる。
+            player2.transform.position = delta + player_destination[1];
+            player3.transform.position = delta+player_destination[2];
         }
+       
+
         if(ProblemController.isWalk){
             dice.interactable = false;
             Walk(me);
@@ -64,7 +68,8 @@ public class GameController : MonoBehaviour
     
     private IEnumerator Change(int x, int y, int nokori, float waitTime){
         yield return new WaitForSeconds(waitTime);
-        player_destination[players_turn] = tilemap.GetCellCenterWorld(new Vector3Int(x, y, 0));//タイル換算の位置にしている
+        player_destination[players_turn] = tilemap.GetCellCenterWorld(new Vector3Int(x, y, 0));
+       
         if(nokori==0){
             yield return new WaitForSeconds(waitTime);//目的地を変えてから直ぐにターン変更すると次のプレイヤーが動いてしまう
             players_turn += 1;
@@ -72,28 +77,53 @@ public class GameController : MonoBehaviour
             dice.interactable = true;
         }
     }
-
-
+    
+    float speed = 0.5f;
+  
     void Update(){
-        players[players_turn].transform.position = Vector3.MoveTowards(players[players_turn].transform.position,  player_destination[players_turn], speed);
-        
+        Vector3 delta = new Vector3(0,0.5f,0);//パネルの上に立ってるように見える補正
+        Vector3 dist = player_destination[players_turn] + delta;
+        players[players_turn].transform.position = Vector3.MoveTowards(players[players_turn].transform.position,  dist, speed);//player_destination[players_turn], speed);
+
+        /*if (Input.GetMouseButtonDown(0)){
+                Vector3 pos = Input.mousePosition;   
+                Debug.Log(tilemap.WorldToCell(Camera.main.ScreenToWorldPoint(pos)));
+        }*/
     }
 
 
-    public void change_pointer(){
-        pointer = pointer^1;
-        if(pointer==0)pointer_button_text.text = "Right";
-        else pointer_button_text.text = "Left";
+
+    public TileBase m_tileGray;
+    public TileBase m_tileRed;
+    IEnumerator WaitInput (int me, List<List<int>> Nexts) {
+        int nexts_index = 0;
+        Vector3Int before;
+        Vector3Int selectCellPos = new Vector3Int(Nexts[0][0],Nexts[0][1],0);
+        tilemap.SetTile(selectCellPos,m_tileGray);
+        before = selectCellPos;
+        bool canMove=false;
+        while(!canMove) {
+            if (Input.GetMouseButtonDown(0)){
+                Vector3 pos = Input.mousePosition;   
+                selectCellPos = tilemap.WorldToCell(Camera.main.ScreenToWorldPoint(pos));
+                for(int i=0; i<Nexts.Count; i++){
+                    if(selectCellPos.x == Nexts[i][0] && selectCellPos.y == Nexts[i][1]){
+                        if(before==selectCellPos)canMove=true;
+                        nexts_index = i;
+                        tilemap.SetTile(selectCellPos,m_tileGray);
+                        tilemap.SetTile(before,m_tileRed);
+                        before = selectCellPos;
+                    }
+                }
+            }
+            yield return null;
+        }
+        tilemap.SetTile(selectCellPos,m_tileRed);
+        Walk(me, 1, nexts_index);//無限ループ防止用フラグ
     }
 
 
-    IEnumerator WaitInput (int me) {
-        while(!Input.GetKey("a")) yield return null;
-        Walk(me, 1);//無限ループ防止用フラグ
-    }
-
-
-    private void Walk(int me, int flg=0){
+    private void Walk(int me, int flg=0, int nexts_index=0){
         int[,] delta = new int[,] {{1,0}, {0,1}, {-1,0}, {0,-1}};
         for(int i=0; i<me; i++){
             List<List<int>> Nexts = new List<List<int>>();
@@ -108,13 +138,20 @@ public class GameController : MonoBehaviour
                 Nexts.Add(next);
             } 
             int nx, ny;
-            if((players_position[players_turn, 0]==-8&&players_position[players_turn, 1]==0) || (players_position[players_turn, 0]==1&&players_position[players_turn, 1]==-4)){
+            int[,] bunki = {{-2, -1}};
+            bool isBunki = false;
+           
+            for(int j=0; j<bunki.GetLength(0); j++){
+                if((players_position[players_turn, 0]==bunki[j,0]&&players_position[players_turn, 1]==bunki[j,1]))isBunki = true;
+            }
+
+            if(isBunki){
                 if(flg==0){
-                    StartCoroutine(WaitInput(me-i));
+                    StartCoroutine(WaitInput(me-i, Nexts));
                 return;
                 }else{
-                    nx = Nexts[pointer][0];
-                    ny = Nexts[pointer][1];
+                    nx = Nexts[nexts_index][0];
+                    ny = Nexts[nexts_index][1];
                 }
             }else{
                 nx = Nexts[0][0];
@@ -138,7 +175,7 @@ public class GameController : MonoBehaviour
     }
 
 
-    void Pop(){
+    public static void Pop(){
         SceneManager.LoadScene("problem");
     }
 }
