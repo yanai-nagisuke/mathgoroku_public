@@ -16,13 +16,13 @@ public class ProblemController : MonoBehaviour
     bool solved = false;
     float time = 10f;
     public static bool isWalk;
+    public static int ans;
     
 
     
     void Start()
     {
         int me = GameController.me;
-        Debug.Log(me);
         Problem.text = "Solve me!<br>"+problem_list[me];
         //isTimeUp = false;
         Timer.text = "Timer:"+time.ToString("F1");
@@ -57,6 +57,7 @@ public class ProblemController : MonoBehaviour
     public void InputText(){
         int me = GameController.me;
         if(Answer.text == ans_list[me] && solved==false){
+            ans = int.Parse(ans_list[me]);
             solved = true;
             Problem.text += ans_list[me]+"<br>Congraturations!";
             Timer.text = "";

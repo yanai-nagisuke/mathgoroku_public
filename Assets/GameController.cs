@@ -13,9 +13,9 @@ public class GameController : MonoBehaviour
     public Tilemap tilemap;//地図のタイルマップを取得。地図のタイルマップとワールド座標は異なるためGetCellCentorWordlでタイルマップの中心の位置に変換する必要がある。
 
 
-    GameObject player1;
-    GameObject player2;
-    GameObject player3;
+    public static GameObject player1;
+    public static GameObject player2;
+    public static GameObject player3;
     public Button dice;
     List<GameObject> players = new List<GameObject>();
 
@@ -56,10 +56,10 @@ public class GameController : MonoBehaviour
             player3.transform.position = delta+player_destination[2];
         }
        
-
+        CameraControl2.MoveCamera();
         if(ProblemController.isWalk){
             dice.interactable = false;
-            Walk(me);
+            Walk(ProblemController.ans);
         }
         ProblemController.isWalk = false;
     }
@@ -95,7 +95,7 @@ public class GameController : MonoBehaviour
 
     public TileBase m_tileGray;
     public TileBase m_tileRed;
-    IEnumerator WaitInput (int me, List<List<int>> Nexts) {
+    IEnumerator WaitInput (int nokori, List<List<int>> Nexts) {
         int nexts_index = 0;
         Vector3Int before;
         Vector3Int selectCellPos = new Vector3Int(Nexts[0][0],Nexts[0][1],0);
@@ -119,14 +119,14 @@ public class GameController : MonoBehaviour
             yield return null;
         }
         tilemap.SetTile(selectCellPos,m_tileRed);
-        Walk(me, 1, nexts_index);//無限ループ防止用フラグ
+        Walk(nokori, 1, nexts_index);//無限ループ防止用フラグ
     }
 
     
-    private void Walk(int me, int flg=0, int nexts_index=0){
-        int[,] delta = new int[,] {{1,0}, {0,1}, {-1,0}, {0,-1}};
+    private void Walk(int ans, int flg=0, int nexts_index=0){
+        int[,] delta = new int[,] {{0,-1}, {1,0}, {0,1}, {-1,0},};
         var bound = tilemap.cellBounds;
-        for(int i=0; i<me; i++){
+        for(int i=0; i<ans; i++){
             List<List<int>> Nexts = new List<List<int>>();
             for(int j=0; j<4; j++){
                 List<int> next = new List<int>();
@@ -148,7 +148,7 @@ public class GameController : MonoBehaviour
 
             if(isBunki){
                 if(flg==0){
-                    StartCoroutine(WaitInput(me-i, Nexts));
+                    StartCoroutine(WaitInput(ans-i, Nexts));
                 return;
                 }else{
                     nx = Nexts[nexts_index][0];
@@ -162,7 +162,7 @@ public class GameController : MonoBehaviour
             players_position[players_turn, 0] = nx;
             players_position[players_turn, 1] = ny;
             used[players_turn, nx-bound.min.x, ny-bound.min.y] = 1;
-            StartCoroutine(Change(nx, ny, me-i-1, 0.3f*i));
+            StartCoroutine(Change(nx, ny, ans-i-1, 0.3f*i));
             player_destination[players_turn] = tilemap.GetCellCenterWorld(new Vector3Int(nx, ny, 0));//タイル換算の位置にしている
         }
     }
@@ -171,7 +171,6 @@ public class GameController : MonoBehaviour
     public void Dice(){
         dice.interactable = false;
         me = saikoro.Next(1,10);
-        dice.GetComponentInChildren<TextMeshProUGUI>().text=me.ToString();
         Pop();
     }
 
