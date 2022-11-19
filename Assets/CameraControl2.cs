@@ -8,7 +8,7 @@ public class CameraControl2 : MonoBehaviour
 {
     //カメラの移動量
     //[SerializeField, Range(0.1f, 10.0f)]
-    private float _positionStep = 8.0f;
+    private float _positionStep = 30.0f;
 
  
     //カメラのtransform  
