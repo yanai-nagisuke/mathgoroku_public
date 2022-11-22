@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 5
-  lastUpdatedAtString: 2022-11-22T23:28:28.475+09:00
-  initializedAtString: 2022-11-22T22:23:14.846+09:00
-  ahead: 2
+  lastUpdatedAtString: 2022-11-23T00:27:21.095+09:00
+  initializedAtString: 2022-11-23T00:27:21.095+09:00
+  ahead: 0
   behind: 0

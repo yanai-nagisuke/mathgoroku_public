@@ -11,16 +11,15 @@ using UnityEngine.SceneManagement;
 public class GameController : MonoBehaviour
 {   
     public Tilemap tilemap;//地図のタイルマップを取得。地図のタイルマップとワールド座標は異なるためGetCellCentorWordlでタイルマップの中心の位置に変換する必要がある。
-
+     public TextMeshProUGUI turntext;
 
     public static GameObject player1;
     public static GameObject player2;
     public static GameObject player3;
-    public Button dice;
+    public Button turn;
     List<GameObject> players = new List<GameObject>();
 
 
-    public static int me = 0;//サイコロの目
     static int[,] players_position; 
     public static int players_turn = 0;//今誰のターンか
     static int[,,] used;
@@ -33,14 +32,15 @@ public class GameController : MonoBehaviour
     static bool syokika = true;
     
     void Start(){
+        turntext.text = "Player" + players_turn.ToString();
         player1 = GameObject.Find("fox");
         player2 = GameObject.Find("fox_red");
         player3 = GameObject.Find("fox_yellow");
         players = new List<GameObject>() {player1, player2, player3};//プレイヤーのゲームオブジェクトを配列として保持している。プレイヤーのゲームオブジェクトを配列として保持している。
         var bound = tilemap.cellBounds;
         if (syokika){
-            int sx = -5;//スタート地点の座標。
-            int sy = -1;
+            int sx = 81;//スタート地点の座標。
+            int sy = 39;
             players_position = new int[,]{{sx,sy}, {sx,sy}, {sx,sy}};//それぞれのプレイヤーのいるマス目の座標。
             player_destination = new List<Vector3>() {tilemap.GetCellCenterWorld(new Vector3Int(sx, sy, 0)), tilemap.GetCellCenterWorld(new Vector3Int(sx, sy, 0)), tilemap.GetCellCenterWorld(new Vector3Int(sx, sy, 0))};
             
@@ -58,7 +58,7 @@ public class GameController : MonoBehaviour
        
         CameraControl2.MoveCamera();
         if(ProblemController.isWalk){
-            dice.interactable = false;
+            turn.interactable = false;
             Walk(ProblemController.ans);
         }
         ProblemController.isWalk = false;
@@ -74,7 +74,7 @@ public class GameController : MonoBehaviour
             yield return new WaitForSeconds(waitTime);//目的地を変えてから直ぐにターン変更すると次のプレイヤーが動いてしまう
             players_turn += 1;
             players_turn %= 3;
-            dice.interactable = true;
+            turn.interactable = true;
         }
     }
     
@@ -85,10 +85,10 @@ public class GameController : MonoBehaviour
         Vector3 dist = player_destination[players_turn] + delta;
         players[players_turn].transform.position = Vector3.MoveTowards(players[players_turn].transform.position,  dist, speed);//player_destination[players_turn], speed);
 
-        /*if (Input.GetMouseButtonDown(0)){
+        if (Input.GetMouseButtonDown(0)){
                 Vector3 pos = Input.mousePosition;   
                 Debug.Log(tilemap.WorldToCell(Camera.main.ScreenToWorldPoint(pos)));
-        }*/
+        }
     }
 
 
@@ -139,7 +139,7 @@ public class GameController : MonoBehaviour
                 Nexts.Add(next);
             } 
             int nx, ny;
-            int[,] bunki = {{-2, -1}};
+            int[,] bunki = {{84, 39}};
             bool isBunki = false;
            
             for(int j=0; j<bunki.GetLength(0); j++){
@@ -167,15 +167,10 @@ public class GameController : MonoBehaviour
         }
     }
 
-    
-    public void Dice(){
-        dice.interactable = false;
-        me = saikoro.Next(1,10);
-        Pop();
-    }
-
-
-    public static void Pop(){
+   
+    public void Turn(){
+        turn.interactable = false;
         SceneManager.LoadScene("problem");
     }
+
 }

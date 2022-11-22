@@ -4,6 +4,7 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 using TMPro;
 using System;//ランダム変数用
+using UnityEngine.UI;
 
 public class ProblemController : MonoBehaviour
 {
@@ -34,10 +35,13 @@ public class ProblemController : MonoBehaviour
     int five;
     int six;
     int last_problem;
-
+    int me;
+    public TextMeshProUGUI dicetext;
+    public Button dice;
 
     void Start()
     {
+        dice.interactable = true;
         one = saikoro.Next(1,10);
         two = saikoro.Next(1,10);
         three = saikoro.Next(1,10);
@@ -92,8 +96,16 @@ public class ProblemController : MonoBehaviour
     }
 
     public void Dice(){
+        dice.interactable = false;
         int [] selected_problems = {one, two, three, four, five, six};
-        last_problem = selected_problems[saikoro.Next(0, 6)];
+        me = saikoro.Next(0, 6);
+        dicetext.text = (me+1).ToString();
+        last_problem = selected_problems[me];
+        StartCoroutine(Show());
+    }
+
+    public IEnumerator Show(){
+        yield return new WaitForSeconds(3f);
         blackboard.SetActive(true);
         Problem.text = "Solve me!<br>"+problem_list[last_problem];
         time = 10f;
