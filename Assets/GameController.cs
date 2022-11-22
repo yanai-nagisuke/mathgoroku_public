@@ -32,7 +32,6 @@ public class GameController : MonoBehaviour
     static bool syokika = true;
     
     void Start(){
-        turntext.text = "Player" + players_turn.ToString();
         player1 = GameObject.Find("fox");
         player2 = GameObject.Find("fox_red");
         player3 = GameObject.Find("fox_yellow");
@@ -81,6 +80,7 @@ public class GameController : MonoBehaviour
     float speed = 0.5f;
   
     void Update(){
+        turntext.text = "Player" + players_turn.ToString();
         Vector3 delta = new Vector3(0,0.5f,0);//パネルの上に立ってるように見える補正
         Vector3 dist = player_destination[players_turn] + delta;
         players[players_turn].transform.position = Vector3.MoveTowards(players[players_turn].transform.position,  dist, speed);//player_destination[players_turn], speed);
