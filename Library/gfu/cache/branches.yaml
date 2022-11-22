@@ -13,26 +13,47 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 2
-  lastUpdatedAtString: 2022-11-08T20:16:18.928+09:00
-  initializedAtString: 2022-11-08T20:16:18.919+09:00
+  lastUpdatedAtString: 2022-11-22T20:09:23.814+09:00
+  initializedAtString: 2022-11-22T19:39:19.687+09:00
   localBranches:
-  - name: master
-    tracking: 
-  remoteBranches: []
-  remotes: []
+  - name: main
+    tracking: origin/main
+  remoteBranches:
+  - name: origin/HEAD
+    tracking: '[None]'
+  remotes:
+  - name: origin
+    url: https://github.com/ENSYUYOU/mathgoroku_public.git
+    login: 
+    user: 
+    host: 
+    function: 0
+    token: 
   localConfigBranches:
     keys:
-    - master
+    - main
     values:
-    - name: master
+    - name: main
       remote:
-        name: 
-        url: 
-      trackingBranch: 
+        name: origin
+        url: https://github.com/ENSYUYOU/mathgoroku_public.git
+      trackingBranch: main
   remoteConfigBranches:
-    keys: []
-    subKeys: []
-    subKeyValues: []
+    keys:
+    - origin
+    subKeys:
+    - Values:
+      - HEAD
+    subKeyValues:
+    - Values:
+      - name: HEAD
+        remote:
+          name: origin
+          url: https://github.com/ENSYUYOU/mathgoroku_public.git
+        trackingBranch: 
   configRemotes:
-    keys: []
-    values: []
+    keys:
+    - origin
+    values:
+    - name: origin
+      url: https://github.com/ENSYUYOU/mathgoroku_public.git
