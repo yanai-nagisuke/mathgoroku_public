@@ -1015,6 +1015,7 @@ MonoBehaviour:
   problem6: {fileID: 2080720006}
   blackboard: {fileID: 1877111221}
   dicetext: {fileID: 2103392403}
+  dice: {fileID: 151712021}
 --- !u!1 &760077129
 GameObject:
   m_ObjectHideFlags: 0
