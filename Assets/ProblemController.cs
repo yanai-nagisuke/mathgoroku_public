@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using TMPro;
-
+using System;//ランダム変数用
 
 public class ProblemController : MonoBehaviour
 {
@@ -14,18 +14,43 @@ public class ProblemController : MonoBehaviour
     public TMP_InputField Answer;
     bool isTimeUp = false;
     bool solved = false;
-    float time = 10f;
+    float time = 1000000000000000000f;
     public static bool isWalk;
     public static int ans;
-    
 
-    
+    public TextMeshProUGUI problem1;
+    public TextMeshProUGUI problem2;
+    public TextMeshProUGUI problem3;
+    public TextMeshProUGUI problem4;
+    public TextMeshProUGUI problem5;
+    public TextMeshProUGUI problem6;
+
+    public GameObject blackboard;
+    System.Random saikoro = new System.Random();
+    int one;
+    int two;
+    int three;
+    int four;
+    int five;
+    int six;
+    int last_problem;
+
+
     void Start()
     {
-        int me = GameController.me;
-        Problem.text = "Solve me!<br>"+problem_list[me];
-        //isTimeUp = false;
-        Timer.text = "Timer:"+time.ToString("F1");
+        one = saikoro.Next(1,10);
+        two = saikoro.Next(1,10);
+        three = saikoro.Next(1,10);
+        four = saikoro.Next(1,10);
+        five = saikoro.Next(1,10);
+        six = saikoro.Next(1,10);
+        problem1.text = problem_list[one];
+        problem2.text = problem_list[two];
+        problem3.text = problem_list[three];
+        problem4.text = problem_list[four];
+        problem5.text = problem_list[five];
+        problem6.text = problem_list[six];
+
         solved = false;
     }
 
@@ -47,6 +72,7 @@ public class ProblemController : MonoBehaviour
     IEnumerator Erase(float time){
         if (isTimeUp && solved==false)Problem.text = "Time up";
         yield return new WaitForSeconds(time);
+        blackboard.SetActive(false);
         SceneManager.LoadScene("SampleScene");
         if(solved)isWalk = true;
     }
@@ -55,14 +81,22 @@ public class ProblemController : MonoBehaviour
     //InputFieldの文字が変更されたらコールバックされる。
     //TMProの、InputFieldである、AnswerWindow、のOn End Editによって、GameMasterの、この関数(InputText)を選択し、コールバックできるようにした
     public void InputText(){
-        int me = GameController.me;
-        if(Answer.text == ans_list[me] && solved==false){
-            ans = int.Parse(ans_list[me]);
+        if(Answer.text == ans_list[last_problem] && solved==false){
+            ans = int.Parse(ans_list[last_problem]);
             solved = true;
-            Problem.text += ans_list[me]+"<br>Congraturations!";
+            Problem.text += ans_list[last_problem]+"<br>Congraturations!";
             Timer.text = "";
             time =- 1;//タイマーが減らないようにする
             StartCoroutine(Erase(3f));
         }
-     }
+    }
+
+    public void Dice(){
+        int [] selected_problems = {one, two, three, four, five, six};
+        last_problem = selected_problems[saikoro.Next(0, 6)];
+        blackboard.SetActive(true);
+        Problem.text = "Solve me!<br>"+problem_list[last_problem];
+        time = 10f;
+    }
+    
 }
