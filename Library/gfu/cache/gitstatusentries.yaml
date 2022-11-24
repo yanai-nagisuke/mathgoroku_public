@@ -13,21 +13,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 6
-  lastUpdatedAtString: 2022-11-25T01:17:48.827+09:00
-  initializedAtString: 2022-11-25T01:05:43.543+09:00
+  lastUpdatedAtString: 2022-11-25T01:23:38.623+09:00
+  initializedAtString: 2022-11-25T01:23:38.623+09:00
   entries:
-  - path: Assets/GameController.cs
-    fullPath: /Users/chourensei/Desktop/Unity/mathgoroku_public/Assets/GameController.cs
-    projectPath: Assets/GameController.cs
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Assets/Scenes/SampleScene.unity
-    fullPath: /Users/chourensei/Desktop/Unity/mathgoroku_public/Assets/Scenes/SampleScene.unity
-    projectPath: Assets/Scenes/SampleScene.unity
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
   - path: Library/ArtifactDB
     fullPath: /Users/chourensei/Desktop/Unity/mathgoroku_public/Library/ArtifactDB
     projectPath: Library/ArtifactDB
@@ -44,38 +32,8 @@ MonoBehaviour:
     fullPath: /Users/chourensei/Desktop/Unity/mathgoroku_public/Library/Artifacts/12/129e9356187fbd5d4a20cc6de1a326f0
     projectPath: Library/Artifacts/12/129e9356187fbd5d4a20cc6de1a326f0
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library/Artifacts/94/949567a1e7be7cb22f96bdc7a54992a5
-    fullPath: /Users/chourensei/Desktop/Unity/mathgoroku_public/Library/Artifacts/94/949567a1e7be7cb22f96bdc7a54992a5
-    projectPath: Library/Artifacts/94/949567a1e7be7cb22f96bdc7a54992a5
-    originalPath: 
     indexStatus: 0
     workTreeStatus: 5
-  - path: Library/Artifacts/e7/e738b6d0f0cdc57296914030a69db381
-    fullPath: /Users/chourensei/Desktop/Unity/mathgoroku_public/Library/Artifacts/e7/e738b6d0f0cdc57296914030a69db381
-    projectPath: Library/Artifacts/e7/e738b6d0f0cdc57296914030a69db381
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library/Bee/artifacts/200b0aE.dag/Assembly-CSharp.dll
-    fullPath: /Users/chourensei/Desktop/Unity/mathgoroku_public/Library/Bee/artifacts/200b0aE.dag/Assembly-CSharp.dll
-    projectPath: Library/Bee/artifacts/200b0aE.dag/Assembly-CSharp.dll
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library/Bee/artifacts/200b0aE.dag/Assembly-CSharp.ref.dll
-    fullPath: /Users/chourensei/Desktop/Unity/mathgoroku_public/Library/Bee/artifacts/200b0aE.dag/Assembly-CSharp.ref.dll
-    projectPath: Library/Bee/artifacts/200b0aE.dag/Assembly-CSharp.ref.dll
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library/Bee/artifacts/200b0aE.dag/post-processed/Assembly-CSharp.dll
-    fullPath: /Users/chourensei/Desktop/Unity/mathgoroku_public/Library/Bee/artifacts/200b0aE.dag/post-processed/Assembly-CSharp.dll
-    projectPath: Library/Bee/artifacts/200b0aE.dag/post-processed/Assembly-CSharp.dll
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
   - path: Library/Bee/backend_profiler0.traceevents
     fullPath: /Users/chourensei/Desktop/Unity/mathgoroku_public/Library/Bee/backend_profiler0.traceevents
     projectPath: Library/Bee/backend_profiler0.traceevents
@@ -116,53 +74,11 @@ MonoBehaviour:
     fullPath: /Users/chourensei/Desktop/Unity/mathgoroku_public/Library/EditorInstance.json
     projectPath: Library/EditorInstance.json
     originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library/gfu/cache/gitlocks.yaml
-    fullPath: /Users/chourensei/Desktop/Unity/mathgoroku_public/Library/gfu/cache/gitlocks.yaml
-    projectPath: Library/gfu/cache/gitlocks.yaml
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library/gfu/cache/gitstatusentries.yaml
-    fullPath: /Users/chourensei/Desktop/Unity/mathgoroku_public/Library/gfu/cache/gitstatusentries.yaml
-    projectPath: Library/gfu/cache/gitstatusentries.yaml
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library/gfu/cache/gittrackingstatus.yaml
-    fullPath: /Users/chourensei/Desktop/Unity/mathgoroku_public/Library/gfu/cache/gittrackingstatus.yaml
-    projectPath: Library/gfu/cache/gittrackingstatus.yaml
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library/gfu/cache/repoinfo.yaml
-    fullPath: /Users/chourensei/Desktop/Unity/mathgoroku_public/Library/gfu/cache/repoinfo.yaml
-    projectPath: Library/gfu/cache/repoinfo.yaml
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library/GridBrush/UnityEditor.Tilemaps.GridBrush.asset
-    fullPath: /Users/chourensei/Desktop/Unity/mathgoroku_public/Library/GridBrush/UnityEditor.Tilemaps.GridBrush.asset
-    projectPath: Library/GridBrush/UnityEditor.Tilemaps.GridBrush.asset
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
+    indexStatus: 1
+    workTreeStatus: 1
   - path: Library/SceneVisibilityState.asset
     fullPath: /Users/chourensei/Desktop/Unity/mathgoroku_public/Library/SceneVisibilityState.asset
     projectPath: Library/SceneVisibilityState.asset
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library/ScriptAssemblies/Assembly-CSharp.dll
-    fullPath: /Users/chourensei/Desktop/Unity/mathgoroku_public/Library/ScriptAssemblies/Assembly-CSharp.dll
-    projectPath: Library/ScriptAssemblies/Assembly-CSharp.dll
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library/Search/transactions.db
-    fullPath: /Users/chourensei/Desktop/Unity/mathgoroku_public/Library/Search/transactions.db
-    projectPath: Library/Search/transactions.db
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
@@ -175,36 +91,6 @@ MonoBehaviour:
   - path: Library/SourceAssetDB-lock
     fullPath: /Users/chourensei/Desktop/Unity/mathgoroku_public/Library/SourceAssetDB-lock
     projectPath: Library/SourceAssetDB-lock
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library/StateCache/MainStageHierarchy/4d/4d2a36d9faf65734f0bbefb3ee623532.json
-    fullPath: /Users/chourensei/Desktop/Unity/mathgoroku_public/Library/StateCache/MainStageHierarchy/4d/4d2a36d9faf65734f0bbefb3ee623532.json
-    projectPath: Library/StateCache/MainStageHierarchy/4d/4d2a36d9faf65734f0bbefb3ee623532.json
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library/StateCache/SceneView/8c/8cd7c613bf844de3b80696e27a479d5e.json
-    fullPath: /Users/chourensei/Desktop/Unity/mathgoroku_public/Library/StateCache/SceneView/8c/8cd7c613bf844de3b80696e27a479d5e.json
-    projectPath: Library/StateCache/SceneView/8c/8cd7c613bf844de3b80696e27a479d5e.json
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library/StateCache/SceneView/d4/d402f194ed75d9c7c40eaa7aa8b41448.json
-    fullPath: /Users/chourensei/Desktop/Unity/mathgoroku_public/Library/StateCache/SceneView/d4/d402f194ed75d9c7c40eaa7aa8b41448.json
-    projectPath: Library/StateCache/SceneView/d4/d402f194ed75d9c7c40eaa7aa8b41448.json
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: UserSettings/EditorUserSettings.asset
-    fullPath: /Users/chourensei/Desktop/Unity/mathgoroku_public/UserSettings/EditorUserSettings.asset
-    projectPath: UserSettings/EditorUserSettings.asset
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: UserSettings/Layouts/default-2021.dwlt
-    fullPath: /Users/chourensei/Desktop/Unity/mathgoroku_public/UserSettings/Layouts/default-2021.dwlt
-    projectPath: UserSettings/Layouts/default-2021.dwlt
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
