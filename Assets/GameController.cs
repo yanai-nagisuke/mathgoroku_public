@@ -11,7 +11,8 @@ using UnityEngine.SceneManagement;
 public class GameController : MonoBehaviour
 {   
     public Tilemap tilemap;//地図のタイルマップを取得。地図のタイルマップとワールド座標は異なるためGetCellCentorWordlでタイルマップの中心の位置に変換する必要がある。
-     public TextMeshProUGUI turntext;
+    public TextMeshProUGUI turntext;
+    public TextMeshProUGUI endingtext;
 
     public static GameObject player1;
     public static GameObject player2;
@@ -38,8 +39,8 @@ public class GameController : MonoBehaviour
         players = new List<GameObject>() {player1, player2, player3};//プレイヤーのゲームオブジェクトを配列として保持している。プレイヤーのゲームオブジェクトを配列として保持している。
         var bound = tilemap.cellBounds;
         if (syokika){
-            int sx = 81;//スタート地点の座標。
-            int sy = 39;
+            int sx = -5;//スタート地点の座標。
+            int sy = -1;
             players_position = new int[,]{{sx,sy}, {sx,sy}, {sx,sy}};//それぞれのプレイヤーのいるマス目の座標。
             player_destination = new List<Vector3>() {tilemap.GetCellCenterWorld(new Vector3Int(sx, sy, 0)), tilemap.GetCellCenterWorld(new Vector3Int(sx, sy, 0)), tilemap.GetCellCenterWorld(new Vector3Int(sx, sy, 0))};
             
@@ -138,8 +139,12 @@ public class GameController : MonoBehaviour
                 next.Add(ny_kouho);
                 Nexts.Add(next);
             } 
+            if(Nexts.Count==0){
+                Ending();
+                return;
+            }
             int nx, ny;
-            int[,] bunki = {{84, 39}};
+            int[,] bunki = {{-2, -1}};
             bool isBunki = false;
            
             for(int j=0; j<bunki.GetLength(0); j++){
@@ -167,6 +172,9 @@ public class GameController : MonoBehaviour
         }
     }
 
+    void Ending(){
+        endingtext.text = "Player" + players_turn.ToString() + " Wins!";
+    }
    
     public void Turn(){
         turn.interactable = false;
