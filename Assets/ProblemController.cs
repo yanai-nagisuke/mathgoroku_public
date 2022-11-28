@@ -69,9 +69,9 @@ public class ProblemController : MonoBehaviour
             Timer.text = "Timer:"+time.ToString("F1");
         }else if (time < 0 && isTimeUp==false && solved==false){
             isTimeUp = true;
-            StartCoroutine(Erase(3));//時間切れ
             GameController.players_turn += 1;
-            GameController.players_turn %= 1;
+            GameController.players_turn %= 3;
+            StartCoroutine(Erase(3));//時間切れ
         }
     }
     
