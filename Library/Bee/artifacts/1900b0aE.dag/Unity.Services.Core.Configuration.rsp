@@ -353,6 +353,7 @@
 "Library/PackageCache/com.unity.services.core@1.4.2/Runtime/Configuration/CloudProjectId.cs"
 "Library/PackageCache/com.unity.services.core@1.4.2/Runtime/Configuration/ConfigurationCollectionHelper.cs"
 "Library/PackageCache/com.unity.services.core@1.4.2/Runtime/Configuration/ConfigurationEntry.cs"
+"Library/PackageCache/com.unity.services.core@1.4.2/Runtime/Configuration/ConfigurationUtils.cs"
 "Library/PackageCache/com.unity.services.core@1.4.2/Runtime/Configuration/IConfigurationLoader.cs"
 "Library/PackageCache/com.unity.services.core@1.4.2/Runtime/Configuration/MemoryConfigurationLoader.cs"
 "Library/PackageCache/com.unity.services.core@1.4.2/Runtime/Configuration/ProjectConfiguration.cs"

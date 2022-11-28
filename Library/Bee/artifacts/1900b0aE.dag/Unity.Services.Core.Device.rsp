@@ -352,6 +352,7 @@
 "Library/PackageCache/com.unity.services.core@1.4.2/Runtime/Device/InstallationId.cs"
 "Library/PackageCache/com.unity.services.core@1.4.2/Runtime/Device/UserIdProviders/AndroidUtils.cs"
 "Library/PackageCache/com.unity.services.core@1.4.2/Runtime/Device/UserIdProviders/IUserIdentifierProvider.cs"
+"Library/PackageCache/com.unity.services.core@1.4.2/Runtime/Device/UserIdProviders/NSUserDefaults.cs"
 "Library/PackageCache/com.unity.services.core@1.4.2/Runtime/Device/UserIdProviders/UnityAdsIdentifier.cs"
 "Library/PackageCache/com.unity.services.core@1.4.2/Runtime/Device/UserIdProviders/UnityAnalyticsIdentifier.cs"
 -langversion:9.0

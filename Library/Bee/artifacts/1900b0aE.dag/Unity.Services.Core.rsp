@@ -353,8 +353,10 @@
 "Library/PackageCache/com.unity.services.core@1.4.2/Runtime/Core/Initialization/InitializationOptions.cs"
 "Library/PackageCache/com.unity.services.core@1.4.2/Runtime/Core/Initialization/ServicesInitializationException.cs"
 "Library/PackageCache/com.unity.services.core@1.4.2/Runtime/Core/Initialization/ServicesInitializationState.cs"
+"Library/PackageCache/com.unity.services.core@1.4.2/Runtime/Core/Initialization/UnityProjectNotLinkedException.cs"
 "Library/PackageCache/com.unity.services.core@1.4.2/Runtime/Core/IUnityServices.cs"
 "Library/PackageCache/com.unity.services.core@1.4.2/Runtime/Core/RequestFailedException.cs"
+"Library/PackageCache/com.unity.services.core@1.4.2/Runtime/Core/UnityServices.cs"
 "Library/PackageCache/com.unity.services.core@1.4.2/Runtime/Core/Utils/UnityThreadUtils.cs"
 -langversion:9.0
 

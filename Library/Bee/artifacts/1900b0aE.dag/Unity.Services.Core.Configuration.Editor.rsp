@@ -357,6 +357,8 @@
 "Library/PackageCache/com.unity.services.core@1.4.2/Editor/Core/Configuration/AssemblyInfo.cs"
 "Library/PackageCache/com.unity.services.core@1.4.2/Editor/Core/Configuration/ConfigurationBuilder.cs"
 "Library/PackageCache/com.unity.services.core@1.4.2/Editor/Core/Configuration/IConfigurationProvider.cs"
+"Library/PackageCache/com.unity.services.core@1.4.2/Editor/Core/Configuration/ProjectConfigurationBuilder.cs"
+"Library/PackageCache/com.unity.services.core@1.4.2/Editor/Core/Configuration/Utils/IoUtils.cs"
 -langversion:9.0
 
 /deterministic

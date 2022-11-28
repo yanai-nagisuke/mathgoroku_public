@@ -347,6 +347,7 @@
 -r:"C:/Users/yukom/OneDrive/ドキュメント/GitHub/mathgoroku_public_ver2/mathgoroku_public/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/EditorAssetResources/Unity.VisualScripting.TextureAssets.dll"
 -r:"C:/Users/yukom/OneDrive/ドキュメント/GitHub/mathgoroku_public_ver2/mathgoroku_public/Library/PackageCache/com.unity.visualscripting@1.7.8/Runtime/VisualScripting.Flow/Dependencies/NCalc/Unity.VisualScripting.Antlr3.Runtime.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/Unity.2D.Common.Runtime.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/Unity.Burst.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/Unity.Mathematics.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEditor.UI.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEngine.UI.ref.dll"
@@ -360,9 +361,12 @@
 "Library/PackageCache/com.unity.2d.spriteshape@7.0.5/Runtime/External/LibTessDotNet/PriorityQueue.cs"
 "Library/PackageCache/com.unity.2d.spriteshape@7.0.5/Runtime/External/LibTessDotNet/Sweep.cs"
 "Library/PackageCache/com.unity.2d.spriteshape@7.0.5/Runtime/External/LibTessDotNet/Tess.cs"
+"Library/PackageCache/com.unity.2d.spriteshape@7.0.5/Runtime/Spline.cs"
 "Library/PackageCache/com.unity.2d.spriteshape@7.0.5/Runtime/SplineUtility.cs"
 "Library/PackageCache/com.unity.2d.spriteshape@7.0.5/Runtime/SpriteShape.cs"
+"Library/PackageCache/com.unity.2d.spriteshape@7.0.5/Runtime/SpriteShapeController.cs"
 "Library/PackageCache/com.unity.2d.spriteshape@7.0.5/Runtime/SpriteShapeGenerator.cs"
+"Library/PackageCache/com.unity.2d.spriteshape@7.0.5/Runtime/SpriteShapeGeometryCache.cs"
 -langversion:9.0
 /unsafe+
 /deterministic
