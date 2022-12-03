@@ -32,7 +32,7 @@ public class CameraControl2 : MonoBehaviour
     
 
     void Update () {
-        Vector3 campos = _camTransform.position;
+        campos = _camTransform.position;
 
         if (Input.GetKey(KeyCode.RightArrow)) { campos += _camTransform.right * Time.deltaTime * _positionStep; }
         if (Input.GetKey(KeyCode.LeftArrow)) { campos -= _camTransform.right * Time.deltaTime * _positionStep; }
@@ -40,6 +40,14 @@ public class CameraControl2 : MonoBehaviour
         if (Input.GetKey(KeyCode.DownArrow)) { campos -= _camTransform.up * Time.deltaTime * _positionStep; }
         if (Input.GetKey(KeyCode.U)) {camera_.orthographicSize -= 0.01f;}
         if (Input.GetKey(KeyCode.L)) {camera_.orthographicSize += 0.01f;}
+
+        if(!(Input.GetKey(KeyCode.RightArrow) || Input.GetKey(KeyCode.LeftArrow) || Input.GetKey(KeyCode.UpArrow) ||
+            Input.GetKey(KeyCode.DownArrow) || Input.GetKey(KeyCode.U) || Input.GetKey(KeyCode.L))){
+            if(GameController.players_turn==0) campos += (GameController.player1.transform.position-campos)*0.05f;
+            if(GameController.players_turn==1) campos += (GameController.player2.transform.position-campos)*0.05f;
+            if(GameController.players_turn==2) campos += (GameController.player3.transform.position-campos)*0.05f;
+            campos.z = -10;
+            }
         _camTransform.position = campos;
     }
     

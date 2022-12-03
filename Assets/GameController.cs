@@ -65,7 +65,8 @@ public class GameController : MonoBehaviour
     }
 
 
-    
+    public Image turnImage;
+    public Sprite[] turnImages;
     private IEnumerator Change(int x, int y, int nokori, float waitTime){
         yield return new WaitForSeconds(waitTime);
         player_destination[players_turn] = tilemap.GetCellCenterWorld(new Vector3Int(x, y, 0));
@@ -75,13 +76,13 @@ public class GameController : MonoBehaviour
             players_turn += 1;
             players_turn %= 3;
             turn.interactable = true;
+            turnImage.sprite = turnImages[players_turn];
         }
     }
     
     float speed = 0.5f;
-  
+
     void Update(){
-        turntext.text = "Player" + players_turn.ToString();
         Vector3 delta = new Vector3(0,0.5f,0);//パネルの上に立ってるように見える補正
         Vector3 dist = player_destination[players_turn] + delta;
         players[players_turn].transform.position = Vector3.MoveTowards(players[players_turn].transform.position,  dist, speed);//player_destination[players_turn], speed);
