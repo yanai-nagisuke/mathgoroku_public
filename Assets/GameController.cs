@@ -74,10 +74,11 @@ public class GameController : MonoBehaviour
 
     public Image turnImage;
     public Sprite[] turnImages;
+    public AudioClip walkSound;//歩く音
     private IEnumerator Change(int x, int y, int nokori, float waitTime){
         yield return new WaitForSeconds(waitTime);
         player_destination[players_turn] = tilemap.GetCellCenterWorld(new Vector3Int(x, y, 0));
-       
+        audioSource.PlayOneShot(walkSound);
         if(nokori==0){
             yield return new WaitForSeconds(waitTime);//目的地を変えてから直ぐにターン変更すると次のプレイヤーが動いてしまう
             players_turn += 1;
