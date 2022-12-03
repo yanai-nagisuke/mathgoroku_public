@@ -429,7 +429,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 160, y: 30}
+  m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &151712021
 MonoBehaviour:
@@ -507,8 +507,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 1
+  m_Sprite: {fileID: -561936016, guid: b5693adad7be8439ea9f07ac3f7a3eb1, type: 3}
+  m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -1104,6 +1104,14 @@ MonoBehaviour:
   dice: {fileID: 151712021}
   audioSource: {fileID: 748480021}
   taikoSound: {fileID: 8300000, guid: e2ed1ac6df8b74d0bb77b971d03ba5df, type: 3}
+  diceImage: {fileID: 151712022}
+  diceImages:
+  - {fileID: -561936016, guid: b5693adad7be8439ea9f07ac3f7a3eb1, type: 3}
+  - {fileID: 1545954135, guid: b5693adad7be8439ea9f07ac3f7a3eb1, type: 3}
+  - {fileID: -1882175370, guid: b5693adad7be8439ea9f07ac3f7a3eb1, type: 3}
+  - {fileID: -404322127, guid: b5693adad7be8439ea9f07ac3f7a3eb1, type: 3}
+  - {fileID: -1980061744, guid: b5693adad7be8439ea9f07ac3f7a3eb1, type: 3}
+  - {fileID: 490810090, guid: b5693adad7be8439ea9f07ac3f7a3eb1, type: 3}
   maru: {fileID: 8300000, guid: 9e705db292dba4ec3b7b00d60c30ccf2, type: 3}
   batu: {fileID: 8300000, guid: 15b7f5d25772a4fa8b564e992c488ee4, type: 3}
   maru_image: {fileID: 604499051}

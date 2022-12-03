@@ -35,7 +35,7 @@ public class ProblemController : MonoBehaviour
     int five;
     int six;
     int last_problem;
-    int me;
+    int me = 0;
     public TextMeshProUGUI dicetext;
     public Button dice;
     public AudioSource audioSource;//ProblemControllerObjectに追加したオーディオソースコンポーネント
@@ -64,8 +64,19 @@ public class ProblemController : MonoBehaviour
 
     
     // Update is called once per frame
+    float currentTime = 0f;
+    public Image diceImage;
+    public Sprite[] diceImages;
     void Update()
     {
+        currentTime += Time.deltaTime;
+        if(currentTime>0.1f && dice.interactable==true){
+            me+=1;
+            me%=6;
+            dicetext.text = (me+1).ToString();
+            currentTime = 0f;
+            diceImage.sprite = diceImages[me];
+        }
         if (0 < time && time<=10) {//10秒にセットされないと減らない。
             time -= Time.deltaTime;
             Timer.text = "Timer:"+time.ToString("F1");
@@ -113,7 +124,6 @@ public class ProblemController : MonoBehaviour
     public void Dice(){
         dice.interactable = false;
         int [] selected_problems = {one, two, three, four, five, six};
-        me = saikoro.Next(0, 6);
         dicetext.text = (me+1).ToString();
         last_problem = selected_problems[me];
         StartCoroutine(Show());
