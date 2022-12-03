@@ -65,10 +65,12 @@ public class ProblemController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (0 < time) {
+        if (0 < time && time<=10) {//10秒にセットされないと減らない。
             time -= Time.deltaTime;
             Timer.text = "Timer:"+time.ToString("F1");
         }else if (time < 0 && isTimeUp==false && solved==false){
+            audioSource.Stop();//時計の音を止める
+            audioSource.PlayOneShot(batu);
             isTimeUp = true;
             GameController.players_turn += 1;
             GameController.players_turn %= 3;
@@ -94,6 +96,7 @@ public class ProblemController : MonoBehaviour
     public GameObject maru_image;
     public void InputText(){
         if(Answer.text == ans_list[last_problem] && solved==false){
+            audioSource.Stop();//時計の音を止める
             audioSource.PlayOneShot(maru);
             maru_image.SetActive(true);
             ans = int.Parse(ans_list[last_problem]);
@@ -115,12 +118,15 @@ public class ProblemController : MonoBehaviour
         StartCoroutine(Show());
     }
     public AudioClip syutsudai;
+    public AudioClip tokeiSound;
     public IEnumerator Show(){
         yield return new WaitForSeconds(3f);
         blackboard.SetActive(true);
         Problem.text = "Solve me!<br>"+problem_list[last_problem];
-        time = 10f;
         audioSource.PlayOneShot(syutsudai);
+        yield return new WaitForSeconds(0.5f);
+        time = 10f;
+        audioSource.PlayOneShot(tokeiSound);
     }
     
 }
