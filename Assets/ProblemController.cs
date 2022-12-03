@@ -36,7 +36,6 @@ public class ProblemController : MonoBehaviour
     int six;
     int last_problem;
     int me = 0;
-    public TextMeshProUGUI dicetext;
     public Button dice;
     public AudioSource audioSource;//ProblemControllerObjectに追加したオーディオソースコンポーネント
     public AudioClip taikoSound;
@@ -73,7 +72,6 @@ public class ProblemController : MonoBehaviour
         if(currentTime>0.1f && dice.interactable==true){
             me+=1;
             me%=6;
-            dicetext.text = (me+1).ToString();
             currentTime = 0f;
             diceImage.sprite = diceImages[me];
         }
@@ -110,6 +108,7 @@ public class ProblemController : MonoBehaviour
         if(Answer.text == ans_list[last_problem] && solved==false){
             audioSource.Stop();//時計の音を止める
             audioSource.PlayOneShot(maru);
+            Problem.text += ans_list[last_problem];
             maru_image.SetActive(true);
             ans = int.Parse(ans_list[last_problem]);
             solved = true;
@@ -124,7 +123,6 @@ public class ProblemController : MonoBehaviour
     public void Dice(){
         dice.interactable = false;
         int [] selected_problems = {one, two, three, four, five, six};
-        dicetext.text = (me+1).ToString();
         last_problem = selected_problems[me];
         StartCoroutine(Show());
     }
