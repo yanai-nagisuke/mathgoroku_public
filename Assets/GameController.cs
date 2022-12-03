@@ -31,7 +31,9 @@ public class GameController : MonoBehaviour
    
 
     static bool syokika = true;
-    
+    public AudioSource audioSource;//オーディオソースは透明なゲームオブジェクトについてる。
+    public AudioClip BGM;//BGM用のpublic変数
+    static float bgmTime;//シーンに映るときにBGMが初めに戻らないようにする変数。
     void Start(){
         player1 = GameObject.Find("fox");
         player2 = GameObject.Find("fox_red");
@@ -39,6 +41,7 @@ public class GameController : MonoBehaviour
         players = new List<GameObject>() {player1, player2, player3};//プレイヤーのゲームオブジェクトを配列として保持している。プレイヤーのゲームオブジェクトを配列として保持している。
         var bound = tilemap.cellBounds;
         if (syokika){
+            bgmTime = 0f;//BGMを初めから
             int sx = -5;//スタート地点の座標。
             int sy = -1;
             players_position = new int[,]{{sx,sy}, {sx,sy}, {sx,sy}};//それぞれのプレイヤーのいるマス目の座標。
@@ -62,6 +65,10 @@ public class GameController : MonoBehaviour
             Walk(ProblemController.ans);
         }
         ProblemController.isWalk = false;
+
+        audioSource.clip = BGM;
+        audioSource.time = bgmTime;
+        audioSource.Play();
     }
 
 
@@ -178,6 +185,7 @@ public class GameController : MonoBehaviour
     }
    
     public void Turn(){
+        bgmTime = audioSource.time;
         turn.interactable = false;
         SceneManager.LoadScene("problem");
     }
