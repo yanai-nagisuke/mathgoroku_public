@@ -38,9 +38,10 @@ public class ProblemController : MonoBehaviour
     int me;
     public TextMeshProUGUI dicetext;
     public Button dice;
-
+    public AudioSource audioSource;//ProblemControllerObjectに追加したオーディオソースコンポーネント
     void Start()
     {
+       
         dice.interactable = true;
         one = saikoro.Next(1,10);
         two = saikoro.Next(1,10);
@@ -87,14 +88,20 @@ public class ProblemController : MonoBehaviour
 
     //InputFieldの文字が変更されたらコールバックされる。
     //TMProの、InputFieldである、AnswerWindow、のOn End Editによって、GameMasterの、この関数(InputText)を選択し、コールバックできるようにした
+    public AudioClip maru;
+    public AudioClip batu;
+    
     public void InputText(){
         if(Answer.text == ans_list[last_problem] && solved==false){
+            audioSource.PlayOneShot(maru);
             ans = int.Parse(ans_list[last_problem]);
             solved = true;
             Problem.text += ans_list[last_problem]+"<br>Congraturations!";
             Timer.text = "";
             time =- 1;//タイマーが減らないようにする
             StartCoroutine(Erase(3f));
+        }else{
+            audioSource.PlayOneShot(batu);
         }
     }
 
@@ -106,12 +113,13 @@ public class ProblemController : MonoBehaviour
         last_problem = selected_problems[me];
         StartCoroutine(Show());
     }
-
+    public AudioClip syutsudai;
     public IEnumerator Show(){
         yield return new WaitForSeconds(3f);
         blackboard.SetActive(true);
         Problem.text = "Solve me!<br>"+problem_list[last_problem];
         time = 10f;
+        audioSource.PlayOneShot(syutsudai);
     }
     
 }
