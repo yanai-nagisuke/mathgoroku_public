@@ -81,6 +81,7 @@ public class ProblemController : MonoBehaviour
         if (isTimeUp && solved==false)Problem.text = "Time up";
         yield return new WaitForSeconds(time);
         blackboard.SetActive(false);
+        maru_image.SetActive(false);
         SceneManager.LoadScene("SampleScene");
         if(solved)isWalk = true;
     }
@@ -90,17 +91,17 @@ public class ProblemController : MonoBehaviour
     //TMProの、InputFieldである、AnswerWindow、のOn End Editによって、GameMasterの、この関数(InputText)を選択し、コールバックできるようにした
     public AudioClip maru;
     public AudioClip batu;
-    
+    public GameObject maru_image;
     public void InputText(){
         if(Answer.text == ans_list[last_problem] && solved==false){
             audioSource.PlayOneShot(maru);
+            maru_image.SetActive(true);
             ans = int.Parse(ans_list[last_problem]);
             solved = true;
-            Problem.text += ans_list[last_problem]+"<br>Congraturations!";
             Timer.text = "";
             time =- 1;//タイマーが減らないようにする
             StartCoroutine(Erase(3f));
-        }else{
+        }else if (isTimeUp==false){
             audioSource.PlayOneShot(batu);
         }
     }
