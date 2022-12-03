@@ -39,9 +39,10 @@ public class ProblemController : MonoBehaviour
     public TextMeshProUGUI dicetext;
     public Button dice;
     public AudioSource audioSource;//ProblemControllerObjectに追加したオーディオソースコンポーネント
+    public AudioClip taikoSound;
     void Start()
     {
-       
+        audioSource.PlayOneShot(taikoSound);
         dice.interactable = true;
         one = saikoro.Next(1,10);
         two = saikoro.Next(1,10);
@@ -104,7 +105,7 @@ public class ProblemController : MonoBehaviour
             Timer.text = "";
             time =- 1;//タイマーが減らないようにする
             StartCoroutine(Erase(3f));
-        }else if (isTimeUp==false){
+        }else if (isTimeUp==false && solved==false){
             audioSource.PlayOneShot(batu);
         }
     }

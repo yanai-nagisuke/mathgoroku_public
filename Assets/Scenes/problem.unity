@@ -1103,6 +1103,7 @@ MonoBehaviour:
   dicetext: {fileID: 2103392403}
   dice: {fileID: 151712021}
   audioSource: {fileID: 748480021}
+  taikoSound: {fileID: 8300000, guid: e2ed1ac6df8b74d0bb77b971d03ba5df, type: 3}
   maru: {fileID: 8300000, guid: 9e705db292dba4ec3b7b00d60c30ccf2, type: 3}
   batu: {fileID: 8300000, guid: 15b7f5d25772a4fa8b564e992c488ee4, type: 3}
   maru_image: {fileID: 604499051}

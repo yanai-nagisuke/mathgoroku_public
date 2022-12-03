@@ -184,7 +184,7 @@ public class GameController : MonoBehaviour
     void Ending(){
         endingtext.text = "Player" + players_turn.ToString() + " Wins!";
     }
-   
+    
     public void Turn(){
         bgmTime = audioSource.time;
         turn.interactable = false;
