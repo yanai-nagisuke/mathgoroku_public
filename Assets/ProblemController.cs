@@ -39,8 +39,10 @@ public class ProblemController : MonoBehaviour
     public Button dice;
     public AudioSource audioSource;//ProblemControllerObjectに追加したオーディオソースコンポーネント
     public AudioClip taikoSound;
+    bool moveDice;
     void Start()
     {
+        moveDice=false;
         audioSource.PlayOneShot(taikoSound);
         dice.interactable = true;
         one = saikoro.Next(1,10);
@@ -57,9 +59,13 @@ public class ProblemController : MonoBehaviour
         problem6.text = problem_list[six];
 
         solved = false;
+        StartCoroutine(MoveDice());
     }
 
-
+    IEnumerator MoveDice(){//サイコロの動き始めを遅らせる
+        yield return new WaitForSeconds(1f);
+        moveDice=true;
+    }
 
     
     // Update is called once per frame
@@ -69,7 +75,7 @@ public class ProblemController : MonoBehaviour
     void Update()
     {
         currentTime += Time.deltaTime;
-        if(currentTime>0.1f && dice.interactable==true){
+        if(currentTime>0.1f && dice.interactable && moveDice){
             me+=1;
             me%=6;
             currentTime = 0f;
