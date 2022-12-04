@@ -19,27 +19,33 @@ public class GameController : MonoBehaviour
     public static GameObject player3;
     public Button turn;
     List<GameObject> players = new List<GameObject>();
-
+    
 
     static int[,] players_position; 
     public static int players_turn = 0;//今誰のターンか
     static int[,,] used;
     static List<Vector3> player_destination = new List<Vector3>();
 
-    System.Random saikoro = new System.Random();
+    System.Random fruit_dice = new System.Random();
 
    
 
     static bool syokika = true;
     public AudioSource audioSource;//オーディオソースは透明なゲームオブジェクトについてる。
     public AudioClip BGM;//BGM用のpublic変数
+    public AudioClip turnSound;
     static float bgmTime;//シーンに映るときにBGMが初めに戻らないようにする変数。
+    public GameObject fruit;
+    static List<Vector3> fruits_pos = new List<Vector3>();
+    Vector3 delta;//プレイヤーとフルーツの表示用
     void Start(){
+        Debug.Log(fruits_pos.Count);
         player1 = GameObject.Find("fox");
         player2 = GameObject.Find("fox_red");
         player3 = GameObject.Find("fox_yellow");
         players = new List<GameObject>() {player1, player2, player3};//プレイヤーのゲームオブジェクトを配列として保持している。プレイヤーのゲームオブジェクトを配列として保持している。
         var bound = tilemap.cellBounds;
+        
         if (syokika){
             bgmTime = 0f;//BGMを初めから
             int sx = -5;//スタート地点の座標。
@@ -52,11 +58,30 @@ public class GameController : MonoBehaviour
             used[1, sx-bound.min.x, sy-bound.min.y] = 1;//幅優先探索ように訪れた頂点を初期化している
             used[2, sx-bound.min.x, sy-bound.min.y] = 1;
             syokika = false;
+            delta = new Vector3(0,0.2f,0);
+            for ( int y = bound.max.y - 1; y >= bound.min.y; --y ){
+                for ( int x = bound.min.x; x < bound.max.x; ++x ){
+                    var pos = new Vector3Int( x, y, 0 );
+                    if(tilemap.HasTile(pos)){
+                        if(fruit_dice.Next(0, 10)==1){
+                            Instantiate(fruit);
+                            fruit.transform.position = tilemap.GetCellCenterWorld(pos)+delta;
+                            fruits_pos.Add(fruit.transform.position);
+                           
+                        }
+                    }
+                }
+            }
         }else{
-            Vector3 delta = new Vector3(0,0.5f,0);
+            delta = new Vector3(0,0.5f,0);
             player1.transform.position = delta + player_destination[0];//プレイヤーをワープさせる。
             player2.transform.position = delta + player_destination[1];
             player3.transform.position = delta+player_destination[2];
+            foreach (Vector3 f in fruits_pos){
+                var pos = new Vector3( f.x, f.y, 0 );
+                Instantiate(fruit);
+                fruit.transform.position = pos;
+            }
         }
        
         CameraControl2.MoveCamera();
@@ -81,6 +106,7 @@ public class GameController : MonoBehaviour
         audioSource.PlayOneShot(walkSound);
         if(nokori==0){
             yield return new WaitForSeconds(waitTime);//目的地を変えてから直ぐにターン変更すると次のプレイヤーが動いてしまう
+            audioSource.PlayOneShot(turnSound);
             players_turn += 1;
             players_turn %= 3;
             turn.interactable = true;
@@ -105,6 +131,7 @@ public class GameController : MonoBehaviour
 
     public TileBase m_tileGray;
     public TileBase m_tileRed;
+    public AudioClip kirikaeSound;
     IEnumerator WaitInput (int nokori, List<List<int>> Nexts) {
         int nexts_index = 0;
         Vector3Int before;
@@ -120,6 +147,7 @@ public class GameController : MonoBehaviour
                     if(selectCellPos.x == Nexts[i][0] && selectCellPos.y == Nexts[i][1]){
                         if(before==selectCellPos)canMove=true;
                         nexts_index = i;
+                        audioSource.PlayOneShot(kirikaeSound);
                         tilemap.SetTile(selectCellPos,m_tileGray);
                         tilemap.SetTile(before,m_tileRed);
                         before = selectCellPos;
