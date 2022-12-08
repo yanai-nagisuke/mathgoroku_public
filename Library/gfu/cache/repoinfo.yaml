@@ -13,11 +13,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 1
-  lastUpdatedAtString: 2022-12-08T19:11:37.446+09:00
-  initializedAtString: 2022-12-08T19:11:37.446+09:00
+  lastUpdatedAtString: 2022-12-08T19:33:50.255+09:00
+  initializedAtString: 2022-12-08T19:33:50.255+09:00
   currentGitRemote:
     name: origin
-    url: https://github.com/ENSYUYOU/mathgoroku_public.git
+    url: https://github.com/yanai-nagisuke/mathgoroku_public.git
     login: 
     user: 
     host: 
@@ -30,9 +30,9 @@ MonoBehaviour:
     name: main
     remote:
       name: origin
-      url: https://github.com/ENSYUYOU/mathgoroku_public.git
+      url: https://github.com/yanai-nagisuke/mathgoroku_public.git
     trackingBranch: main
   currentConfigRemote:
     name: origin
-    url: https://github.com/ENSYUYOU/mathgoroku_public.git
+    url: https://github.com/yanai-nagisuke/mathgoroku_public.git
   currentHead: 
