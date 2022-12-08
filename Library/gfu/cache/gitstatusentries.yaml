@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 6
-  lastUpdatedAtString: 2022-12-08T19:21:19.195+09:00
+  lastUpdatedAtString: 2022-12-08T19:22:18.520+09:00
   initializedAtString: 2022-12-08T19:11:46.464+09:00
   entries:
   - path: Library\gfu\cache\branches.yaml
@@ -23,10 +23,10 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: Library\gfu\cache\gitlocks.yaml
+  - path: Library\gfu\cache\gitlog.yaml
     fullPath: "C:\\Users\\user\\OneDrive\\\u30C9\u30AD\u30E5\u30E1\u30F3\u30C8\\new
-      game\\mathgoroku_public\\Library\\gfu\\cache\\gitlocks.yaml"
-    projectPath: Library\gfu\cache\gitlocks.yaml
+      game\\mathgoroku_public\\Library\\gfu\\cache\\gitlog.yaml"
+    projectPath: Library\gfu\cache\gitlog.yaml
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
