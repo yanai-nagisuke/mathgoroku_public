@@ -13,23 +13,23 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 6
-  lastUpdatedAtString: 2022-12-08T19:22:18.520+09:00
+  lastUpdatedAtString: 2022-12-08T19:24:38.407+09:00
   initializedAtString: 2022-12-08T19:11:46.464+09:00
   entries:
-  - path: Library\gfu\cache\branches.yaml
+  - path: Library\Bee\backend_profiler0.traceevents
     fullPath: "C:\\Users\\user\\OneDrive\\\u30C9\u30AD\u30E5\u30E1\u30F3\u30C8\\new
-      game\\mathgoroku_public\\Library\\gfu\\cache\\branches.yaml"
-    projectPath: Library\gfu\cache\branches.yaml
+      game\\mathgoroku_public\\Library\\Bee\\backend_profiler0.traceevents"
+    projectPath: Library\Bee\backend_profiler0.traceevents
     originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\gfu\cache\gitlog.yaml
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Bee\TundraBuildState.state.map
     fullPath: "C:\\Users\\user\\OneDrive\\\u30C9\u30AD\u30E5\u30E1\u30F3\u30C8\\new
-      game\\mathgoroku_public\\Library\\gfu\\cache\\gitlog.yaml"
-    projectPath: Library\gfu\cache\gitlog.yaml
+      game\\mathgoroku_public\\Library\\Bee\\TundraBuildState.state.map"
+    projectPath: Library\Bee\TundraBuildState.state.map
     originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
+    indexStatus: 1
+    workTreeStatus: 1
   - path: Library\gfu\cache\gitstatusentries.yaml
     fullPath: "C:\\Users\\user\\OneDrive\\\u30C9\u30AD\u30E5\u30E1\u30F3\u30C8\\new
       game\\mathgoroku_public\\Library\\gfu\\cache\\gitstatusentries.yaml"
